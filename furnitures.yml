@@ -1,0 +1,516 @@
+old_clock:
+  enabled: true
+  permission: old_clock
+  model_id: 1
+  name: '&fOld clock'
+  lore:
+    - "&7Decorative item"
+  craft_recipe:
+    enabled: true
+    pattern:
+      - WCW
+      - WGW
+      - WWW
+    ingredients:
+      C: CLOCK
+      W: LEGACY_WOOD
+      G: GOLD_INGOT
+opened_chest:
+  enabled: true
+  permission: opened_chest
+  model_id: 2
+  name: '&fOpened chest'
+  lore:
+    - "&7Decorative item"
+  craft_recipe:
+    enabled: true
+    pattern:
+      - XGX
+      - XCX
+      - XXX
+    ingredients:
+      C: CHEST
+      G: GLASS
+computer_desk:
+  enabled: true
+  permission: computer_desk
+  model_id: 3
+  name: '&fDesk with computer'
+  lore:
+    - "&7Decorative item"
+  craft_recipe:
+    enabled: true
+    pattern:
+      - XRX
+      - WWW
+      - SXS
+    ingredients:
+      R: REDSTONE
+      W: SPRUCE_PLANKS
+      S: STICK
+table:
+  enabled: true
+  permission: table
+  model_id: 4
+  name: '&fTable'
+  lore:
+    - "&7Decorative item"
+  craft_recipe:
+    enabled: true
+    pattern:
+      - XXX
+      - WWW
+      - WXW
+    ingredients:
+      W: SPRUCE_PLANKS
+lamp:
+  enabled: true
+  permission: lamp
+  model_id: 5
+  name: '&fLamp'
+  lore:
+    - "&7Decorative item"
+  craft_recipe:
+    enabled: true
+    pattern:
+      - QTQ
+      - XSX
+      - XSX
+    ingredients:
+      Q: QUARTZ_BLOCK
+      T: TORCH
+      S: STICK
+simple_chair:
+  enabled: true
+  permission: simple_chair
+  model_id: 6
+  name: '&fSimple Chair'
+  lore:
+    - "&7Rightclick to sit"
+  specific_properties:
+    chair:
+      height: 0.5
+  craft_recipe:
+    enabled: true
+    pattern:
+      - WWW
+      - PPP
+      - SXS
+    ingredients:
+      W: LIGHT_BLUE_WOOL
+      P: SPRUCE_PLANKS
+      S: STICK
+lava_lamp:
+  enabled: true
+  permission: lava_lamp
+  model_id: 7
+  name: '&fLava lamp'
+  lore:
+    - "&7Decorative item"
+  craft_recipe:
+    enabled: true
+    pattern:
+      - XXX
+      - XLX
+      - XIX
+    ingredients:
+      L: LAVA_BUCKET
+      I: iron_plate
+white_chair:
+  enabled: true
+  permission: white_chair
+  model_id: 8
+  name: '&fWhite chair'
+  lore:
+    - "&7Rightclick to sit"
+  specific_properties:
+    chair:
+      height: 0.5
+  craft_recipe:
+    enabled: true
+    pattern:
+      - WWW
+      - PPP
+      - SXS
+    ingredients:
+      W: WHITE_WOOL
+      P: SPRUCE_PLANKS
+      S: STICK
+glass_table:
+  enabled: true
+  permission: glass_table
+  model_id: 9
+  name: '&fGlass table'
+  lore:
+    - "&7Decorative item"
+  craft_recipe:
+    enabled: true
+    pattern:
+      - XXX
+      - GGG
+      - IXI
+    ingredients:
+      G: GLASS_PANE
+      I: IRON_INGOT
+computer_chair:
+  enabled: true
+  permission: computer_chair
+  model_id: 10
+  name: '&fComputer chair'
+  lore:
+    - "&7Rightclick to sit"
+  specific_properties:
+    chair:
+      height: 0.5
+  craft_recipe:
+    enabled: true
+    pattern:
+      - XXX
+      - WWW
+      - SXS
+    ingredients:
+      W: WHITE_WOOL
+      S: STICK
+monitor:
+  enabled: true
+  permission: monitor
+  model_id: 11
+  name: '&fMonitor'
+  lore:
+    - "&7Decorative item"
+  craft_recipe:
+    enabled: true
+    pattern:
+      - PPP
+      - POP
+      - XIX
+    ingredients:
+      P: plastic_plate
+      O: REDSTONE
+      I: IRON_INGOT
+tv:
+  enabled: true
+  permission: tv
+  model_id: 12
+  name: '&fTV'
+  lore:
+    - "&7Decorative item"
+  craft_recipe:
+    enabled: true
+    pattern:
+      - PPP
+      - POP
+      - XIX
+    ingredients:
+      P: plastic_plate
+      O: REDSTONE
+      I: IRON_INGOT
+mini_fridge:
+  enabled: true
+  permission: mini_fridge
+  model_id: 13
+  name: '&fMini fridge'
+  lore:
+    - "&7Decorative item"
+  specific_properties:
+    has_gravity: false
+  craft_recipe:
+    enabled: true
+    pattern:
+      - POP
+      - ROB
+      - POP
+    ingredients:
+      P: iron_plate
+      B: STONE_BUTTON
+      O: SNOW_BLOCK
+      R: REDSTONE
+energy_extractor:
+  enabled: true
+  permission: energy_extractor
+  model_id: 14
+  name: '&fEnergy Extractor'
+  lore:
+    - "&7Use it to convert items"
+    - "&7into energy"
+  specific_properties:
+    trade_machine:
+      name: '&9&lEnergy Extractor'
+      trade_list:
+        cobblestone:
+          ingredients:
+            slot1:
+              item: COBBLESTONE
+              amount: 64
+          result:
+            item: energy_orb
+            amount: 6
+        cobblestone_slab:
+          ingredients:
+            slot1:
+              item: COBBLESTONE_SLAB
+              amount: 64
+          result:
+            item: energy_orb
+            amount: 6
+        dirt:
+          ingredients:
+            slot1:
+              item: DIRT
+              amount: 64
+          result:
+            item: energy_orb
+            amount: 6
+        coal:
+          ingredients:
+            slot1:
+              item: COAL
+              amount: 32
+          result:
+            item: energy_orb
+            amount: 16
+        oak_planks:
+          ingredients:
+            slot1:
+              item: OAK_PLANKS
+              amount: 64
+          result:
+            item: energy_orb
+            amount: 8
+        spruce_planks:
+          ingredients:
+            slot1:
+              item: SPRUCE_PLANKS
+              amount: 64
+          result:
+            item: energy_orb
+            amount: 8
+        birch_planks:
+          ingredients:
+            slot1:
+              item: BIRCH_PLANKS
+              amount: 64
+          result:
+            item: energy_orb
+            amount: 8
+        redstone:
+          ingredients:
+            slot1:
+              item: REDSTONE
+              amount: 64
+          result:
+            item: energy_orb
+            amount: 4
+        iron_ingot:
+          ingredients:
+            slot1:
+              item: IRON_INGOT
+              amount: 2
+          result:
+            item: energy_orb
+            amount: 32
+        emerald:
+          ingredients:
+            slot1:
+              item: EMERALD
+              amount: 1
+          result:
+            item: energy_capsule
+            amount: 1
+        diamond:
+          ingredients:
+            slot1:
+              item: DIAMOND
+              amount: 1
+          result:
+            item: energy_capsule
+            amount: 8
+        bronze_ingot:
+          ingredients:
+            slot1:
+              item: bronze_ingot
+              amount: 1
+          result:
+            item: energy_capsule
+            amount: 1
+  craft_recipe:
+    enabled: true
+    pattern:
+      - DOD
+      - OEO
+      - DOD
+    ingredients:
+      D: DIAMOND_BLOCK
+      O: OBSIDIAN
+      E: ENDER_EYE
+energy_converter:
+  enabled: true
+  permission: energy_converter
+  model_id: 15
+  name: '&fEnergy Converter'
+  lore:
+    - "&7Use it to convert energy"
+    - "&7into items"
+  specific_properties:
+    trade_machine:
+      name: '&4&lEnergy Converter'
+      trade_list:
+        dirt:
+          ingredients:
+            slot1:
+              item: energy_orb
+              amount: 6
+          result:
+            item: DIRT
+            amount: 64
+        cobblestone:
+          ingredients:
+            slot1:
+              item: energy_orb
+              amount: 6
+          result:
+            item: COBBLESTONE
+            amount: 64
+        cobblestone_stairs:
+          ingredients:
+            slot1:
+              item: energy_orb
+              amount: 6
+          result:
+            item: COBBLESTONE_STAIRS
+            amount: 64
+        iron_ingot:
+          ingredients:
+            slot1:
+              item: energy_orb
+              amount: 32
+          result:
+            item: IRON_INGOT
+            amount: 2
+        emerald_energy:
+          ingredients:
+            slot1:
+              item: energy_orb
+              amount: 64
+          result:
+            item: EMERALD
+            amount: 1
+        emerald_small_energy:
+          ingredients:
+            slot1:
+              item: small_energy_capsule
+              amount: 8
+          result:
+            item: EMERALD
+            amount: 1
+        diamond_energy:
+          ingredients:
+            slot1:
+              item: energy_capsule
+              amount: 8
+          result:
+            item: DIAMOND
+            amount: 1
+        diamond_small_energy:
+          ingredients:
+            slot1:
+              item: small_energy_capsule
+              amount: 8
+          result:
+            item: DIAMOND
+            amount: 1
+  craft_recipe:
+    enabled: true
+    pattern:
+      - DOD
+      - OEO
+      - DOD
+    ingredients:
+      D: REDSTONE_BLOCK
+      O: OBSIDIAN
+      E: ENDER_PEARL
+vending_machine:
+  enabled: true
+  permission: vending_machine
+  model_id: 16
+  name: '&fVending Machine'
+  lore:
+    - "&7Use it to get cool items"
+  specific_properties:
+    trade_machine:
+      name: 'Vending Machine'
+      trade_list:
+        hamburger:
+          ingredients:
+            slot1:
+              item: COBBLESTONE
+              amount: 64
+          result:
+            item: hamburger
+            amount: 1
+        hotdog:
+          ingredients:
+            slot1:
+              item: COBBLESTONE
+              amount: 64
+            slot2:
+              item: GRANITE
+              amount: 8
+          result:
+            item: hotdog
+            amount: 1
+  craft_recipe:
+    enabled: true
+    pattern:
+      - III
+      - IRI
+      - III
+    ingredients:
+      R: REDSTONE
+      I: iron_plate
+coffee_machine:
+  enabled: true
+  permission: coffee_machine
+  model_id: 17
+  name: '&fCoffee Machine'
+  lore:
+    - "&7Makes a really good coffee"
+  specific_properties:
+    trade_machine:
+      name: 'Coffee Machine'
+      trade_list:
+        hamburger:
+          ingredients:
+            slot1:
+              item: COCOA_BEANS
+              amount: 4
+            slot2:
+              item: empty_cup
+              amount: 1
+          result:
+            item: coffee
+            amount: 1
+  craft_recipe:
+    enabled: true
+    pattern:
+      - III
+      - IRB
+      - III
+    ingredients:
+      R: REDSTONE
+      B: WATER_BUCKET
+      I: iron_plate
+mysterious_stone:
+  enabled: true
+  permission: mysterious_stone
+  model_id: 18
+  name: '&fMysterious Stone'
+  specific_properties:
+    has_gravity: false
+alchemy_candles:
+  enabled: true
+  permission: alchemy_candles
+  model_id: 19
+  name: '&fAlchemy Candles'
+  specific_properties:
+    has_gravity: false

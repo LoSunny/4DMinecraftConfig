@@ -1,0 +1,181 @@
+ruby:
+  enabled: true
+  permission: ruby
+  model_id: 1
+  name: '&fRuby'
+  events:
+    block_break:
+      drop_this_item:
+        from_block: ruby_ore
+        chance: 100
+        min_amount: 1
+        max_amount: 2
+crystal:
+  enabled: true
+  permission: crystal
+  model_id: 2
+  name: '&fCrystal'
+  events:
+    block_break:
+      drop_this_item:
+        from_block: NETHER_QUARTZ_ORE
+        chance: 30
+        min_amount: 1
+        max_amount: 2
+spinel:
+  enabled: true
+  permission: spinel
+  model_id: 3
+  name: '&fSpinel'
+  events:
+    block_break:
+      drop_this_item:
+        from_block: spinel_ore
+        chance: 100
+        min_amount: 1
+        max_amount: 2
+turquoise:
+  enabled: true
+  permission: turquoise
+  model_id: 4
+  name: '&fTurquoise'
+  events:
+    block_break:
+      drop_this_item:
+        from_block: turquoise_ore
+        chance: 100
+        min_amount: 1
+        max_amount: 2
+aqua_aura:
+  enabled: true
+  permission: aqua_aura
+  model_id: 5
+  name: '&fAqua Aura'
+  events:
+    block_break:
+      drop_this_item:
+        from_block: aqua_aura_ore
+        chance: 100
+        min_amount: 1
+        max_amount: 2
+amethyst:
+  enabled: true
+  permission: amethyst
+  model_id: 6
+  name: '&fAmethyst'
+  events:
+    block_break:
+      drop_this_item:
+        from_block: amethyst_ore
+        chance: 100
+        min_amount: 1
+        max_amount: 2
+    kill_mob:
+      drop_this_item:
+        from_mob: WITCH
+        chance: 20
+amethyst_prism:
+  enabled: true
+  permission: amethyst_prism
+  model_id: 7
+  name: '&fAmethyst prism'
+  events:
+    block_break:
+      drop_this_item:
+        from_block: LAPIS_ORE
+        chance: 5
+        min_amount: 1
+        max_amount: 2
+    kill_mob:
+      drop_this_item:
+        from_mob: WITCH
+        chance: 20
+fossil:
+  enabled: true
+  permission: fossil
+  model_id: 8
+  name: '&fFossil'
+  lore:
+    - "&7Found in Stone"
+  events:
+    block_break:
+      drop_this_item:
+        from_block: STONE
+        chance: 2
+        min_amount: 1
+        max_amount: 2
+  result_recipe_1:
+    enabled: true
+    pattern:
+      - FFF
+      - FFF
+      - FFF
+    ingredients:
+      F: fossil
+    result:
+      item: BONE_BLOCK
+bronze_ingot:
+  enabled: true
+  permission: bronze_ingot
+  model_id: 9
+  name: '&fBronze Ingot'
+  smelting:
+    enabled: true
+    ingredient: bronze_ore
+    amount: 1
+mysterious_material:
+  enabled: true
+  permission: mysterious_material
+  model_id: 10
+  name: '&fMysterious Material'
+  smelting:
+    enabled: true
+    ingredient: mysterious_ore
+    amount: 1
+end_shard:
+  enabled: true
+  permission: end_shard
+  model_id: 11
+  name: '&fEnd Shard'
+  events:
+    block_break:
+      drop_this_item:
+        from_block: end_ore
+        chance: 100
+        min_amount: 1
+        max_amount: 2
+end_crystals:
+  enabled: true
+  permission: end_crystals
+  model_id: 12
+  name: '&fEnd Crystals'
+  craft_recipe:
+    enabled: true
+    pattern:
+      - XXX
+      - XXX
+      - EEE
+    ingredients:
+      E: end_shard
+end_ingot:
+  enabled: true
+  permission: end_ingot
+  model_id: 13
+  name: '&fEnd Ingot'
+  smelting:
+    enabled: true
+    ingredient: end_crystals
+knowledge_fragment:
+  enabled: true
+  permission: knowledge_fragment
+  model_id: 14
+  name: '&fKnowledge Fragment'
+  lore:
+    - "&7Found in Nether Quartz Ore"
+  events:
+    block_break:
+      drop_this_item:
+        from_block: NETHER_QUARTZ_ORE
+        chance: 15
+        min_amount: 1
+        max_amount: 2

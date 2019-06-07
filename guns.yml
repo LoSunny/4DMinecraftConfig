@@ -1,0 +1,71 @@
+revolver:
+  enabled: true
+  permission: revolver
+  model_id: 1
+  vanilla_type: GOLDEN_SWORD
+  name: '&fRevolver'
+  specific_properties:
+    projectile: projectile
+  events:
+    gun_shot:
+      play_sound: revolver_shot
+      play_effect: SMOKE
+    gun_no_ammo:
+      play_sound: revolver_no_ammo
+  craft_recipe:
+    enabled: true
+    pattern:
+      - III
+      - ISX
+      - WXX
+    ingredients:
+      I: IRON_INGOT
+      S: STICK
+      W: SPRUCE_PLANKS
+hand_gun:
+  enabled: true
+  permission: hand_gun
+  model_id: 2
+  vanilla_type: GOLDEN_SWORD
+  name: '&fHandgun'
+  specific_properties:
+    projectile: projectile
+  events:
+    gun_shot:
+      play_sound: revolver_shot
+      play_effect: SMOKE
+    gun_no_ammo:
+      play_sound: revolver_no_ammo
+  craft_recipe:
+    enabled: true
+    pattern:
+      - III
+      - ISX
+      - IXX
+    ingredients:
+      I: IRON_INGOT
+      S: STICK
+ak47:
+  enabled: true
+  permission: ak47
+  model_id: 3
+  vanilla_type: GOLDEN_SWORD
+  name: '&fAk-47'
+  specific_properties:
+    projectile: clip
+  events:
+    gun_shot:
+      play_sound: revolver_shot
+      play_effect: SMOKE
+    gun_no_ammo:
+      play_sound: revolver_no_ammo
+  craft_recipe:
+    enabled: true
+    pattern:
+      - DDI
+      - ISX
+      - IXX
+    ingredients:
+      I: IRON_INGOT
+      D: DIAMOND
+      S: STICK

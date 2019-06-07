@@ -1,0 +1,160 @@
+cola:
+   enabled: true
+   permission: cola
+   model_id: 1
+   name: '&fCola'
+   events:
+      drink:
+         restore_food: 12
+   craft_recipe:
+      enabled: true
+      pattern:
+         - XXX
+         - PSP
+         - PPP
+      ingredients:
+         S: SOUL_SAND
+         P: plastic_plate
+hot_chocolate:
+   enabled: true
+   permission: hot_chocolate
+   model_id: 2
+   name: '&fHot chocolate'
+   events:
+      drink:
+         restore_food: 12
+   craft_recipe:
+      enabled: true
+      pattern:
+         - XXX
+         - XsX
+         - XbX
+      ingredients:
+         s: SOUL_SAND
+         b: LAVA_BUCKET
+coffee:
+   enabled: true
+   permission: coffee
+   model_id: 3
+   name: '&fCoffee'
+   events:
+      drink:
+         restore_food: 5
+   craft_recipe:
+      enabled: true
+      pattern:
+         - XXX
+         - XOX
+         - XCX
+      ingredients:
+         C: cup_of_hot_water
+         O: COCOA_BEANS
+diamonds_finder_potion:
+   enabled: true
+   permission: diamonds_finder_potion
+   model_id: 4
+   name: '&fDiamonds finder potion'
+   lore:
+      - '&3Makes diamond ores glow behind other blocks'
+   events:
+      drink:
+         glow_near_blocks: DIAMOND_ORE
+   craft_recipe:
+      enabled: true
+      pattern:
+         - XDX
+         - XAX
+         - XBX
+      ingredients:
+         D: DIAMOND
+         A: BEETROOT
+         B: GLASS_BOTTLE
+emeralds_finder_potion:
+   enabled: true
+   permission: emeralds_finder_potion
+   model_id: 5
+   name: '&fEmeralds finder potion'
+   lore:
+      - '&3Makes emerald ores glow behind other blocks'
+   events:
+      drink:
+         glow_near_blocks: EMERALD_ORE
+   craft_recipe:
+      enabled: true
+      pattern:
+         - XDX
+         - XAX
+         - XBX
+      ingredients:
+         D: EMERALD
+         A: BEETROOT
+         B: GLASS_BOTTLE
+strange_potion:
+   enabled: true
+   permission: strange_potion
+   model_id: 6
+   name: '&fStrange potion'
+   lore:
+      - '&3A mysterious potion'
+   events:
+      drink:
+         potion_effect:
+            type: GLOWING
+            duration: 6000
+   craft_recipe:
+      enabled: true
+      pattern:
+         - XIX
+         - XBX
+         - XAX
+      ingredients:
+         I: INK_SAC
+         B: BEETROOT
+         A: POTION
+antidote:
+   enabled: true
+   permission: antidote
+   model_id: 7
+   name: '&fAntidote'
+   lore:
+      - '&3Removes a potion effect'
+   events:
+      drink:
+         remove_potion_effect:
+            type: GLOWING
+   craft_recipe:
+      enabled: true
+      pattern:
+         - XIX
+         - XBX
+         - XAX
+      ingredients:
+         I: SUGAR
+         B: BEETROOT
+         A: strange_potion
+bloody_mary:
+   enabled: true
+   permission: bloody_mary
+   model_id: 8
+   name: '&fBloody Mary'
+   events:
+      drink:
+         potion_effect:
+            type: CONFUSION
+            duration: 200
+         restore_food: 12
+      kill_mob:
+         drop_this_item:
+            from_mob: WITCH
+            chance: 10
+   craft_recipe:
+      enabled: true
+      pattern:
+         - XCL
+         - TGT
+         - XXX
+      ingredients:
+         C: chili_powder
+         L: lattuce
+         T: tomato
+         G: drink_glass

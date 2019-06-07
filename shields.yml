@@ -1,0 +1,107 @@
+ender_shield:
+  enabled: true
+  permission: ender_shield
+  model_id: 1
+  name: '&fEnder Shield'
+  craft_recipe:
+    enabled: true
+    pattern:
+      - TET
+      - TOT
+      - XTX
+    ingredients:
+      E: ENDER_PEARL
+      T: SPRUCE_PLANKS
+      O: OBSIDIAN
+obsidian_shield:
+  enabled: true
+  permission: obsidian_shield
+  model_id: 2
+  name: '&fObsidian Shield'
+  craft_recipe:
+    enabled: true
+    pattern:
+      - TTT
+      - TTT
+      - XTX
+    ingredients:
+      T: OBSIDIAN
+bronze_shield:
+  enabled: true
+  permission: bronze_shield
+  model_id: 3
+  name: '&fBronze Shield'
+  craft_recipe:
+    enabled: true
+    pattern:
+      - TTT
+      - XTX
+      - XXX
+    ingredients:
+      T: bronze_ingot
+ruby_shield:
+  enabled: true
+  permission: ruby_shield
+  model_id: 4
+  name: '&fRuby Shield'
+  craft_recipe:
+    enabled: true
+    pattern:
+      - TTT
+      - XTX
+      - XXX
+    ingredients:
+      T: ruby
+spinel_shield:
+  enabled: true
+  permission: spinel_shield
+  model_id: 5
+  name: '&fSpinel Shield'
+  craft_recipe:
+    enabled: true
+    pattern:
+      - TTT
+      - XTX
+      - XXX
+    ingredients:
+      T: spinel
+turquoise_shield:
+  enabled: true
+  permission: turquoise_shield
+  model_id: 6
+  name: '&fTurquoise Shield'
+  craft_recipe:
+    enabled: true
+    pattern:
+      - TTT
+      - XTX
+      - XXX
+    ingredients:
+      T: turquoise
+amethyst_shield:
+  enabled: true
+  permission: amethyst_shield
+  model_id: 7
+  name: '&fAmethyst Shield'
+  craft_recipe:
+    enabled: true
+    pattern:
+      - TTT
+      - XTX
+      - XXX
+    ingredients:
+      T: amethyst
+fossil_shield:
+  enabled: true
+  permission: fossil_shield
+  model_id: 8
+  name: '&fFossil Shield'
+  craft_recipe:
+    enabled: true
+    pattern:
+      - BBB
+      - BFB
+      - XBX
+    ingredients:
+      F: fossil
+      B: BONE_BLOCK

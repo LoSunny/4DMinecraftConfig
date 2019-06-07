@@ -1,0 +1,55 @@
+tomato:
+  enabled: true
+  permission: tomato
+  model_id: 1
+  name: '&fTomato'
+banana:
+  enabled: true
+  permission: banana
+  model_id: 2
+  name: '&fBanana'
+  lore:
+    - "&7Found in Spruce Leaves"
+  events:
+    block_break:
+      drop_this_item:
+        from_block: OAK_LEAVES
+        need_pickaxe: false
+        chance: 10
+        min_amount: 1
+        max_amount: 2
+garlic:
+  enabled: true
+  permission: garlic
+  model_id: 3
+  name: '&fGarlic'
+lattuce:
+  enabled: true
+  permission: lattuce
+  model_id: 4
+  name: '&fLattuce'
+chili_pepper:
+  enabled: true
+  permission: chili_pepper
+  model_id: 5
+  name: '&fChili pepper'
+pear:
+  enabled: true
+  permission: pear
+  model_id: 6
+  name: '&fPear'
+  lore:
+    - "&7Found in Birch Leaves"
+  events:
+    block_break:
+      drop_this_item:
+        from_block: BIRCH_LEAVES
+        need_pickaxe: false
+        chance: 5
+        min_amount: 1
+        max_amount: 5
+rice:
+  enabled: true
+  permission: rice
+  model_id: 7
+  name: '&fRice'

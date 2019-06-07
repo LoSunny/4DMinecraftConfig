@@ -1,0 +1,65 @@
+astral_bow:
+  enabled: true
+  permission: astral_bow
+  model_id: 1
+  name: '&fAstral bow'
+  enchants:
+    - ARROW_FIRE:1
+  events:
+    shot:
+      play_sound: astral_bow_shot
+      glow_arrows: true
+  craft_recipe:
+    enabled: true
+    pattern:
+      - XBS
+      - BXS
+      - XBS
+    ingredients:
+      B: BLAZE_ROD
+      S: STRING
+cross_bow:
+  enabled: true
+  permission: cross_bow
+  model_id: 2
+  name: '&fCrossbow'
+  craft_recipe:
+    enabled: true
+    pattern:
+      - FXF
+      - XBX
+      - RXR
+    ingredients:
+      F: REDSTONE_BLOCK
+      R: REDSTONE
+      B: BOW
+black_bow:
+  enabled: true
+  permission: black_bow
+  model_id: 3
+  name: '&fBlack Dyed Bow'
+red_bow:
+  enabled: true
+  permission: red_bow
+  model_id: 4
+  name: '&fRed Dyed Bow'
+green_bow:
+  enabled: true
+  permission: green_bow
+  model_id: 5
+  name: '&fGreen Dyed Bow'
+blue_bow:
+  enabled: true
+  permission: blue_bow
+  model_id: 6
+  name: '&fBlue Dyed Bow'
+purple_bow:
+  enabled: true
+  permission: purple_bow
+  model_id: 7
+  name: '&fPurple Dyed Bow'
+cyan_bow:
+  enabled: true
+  permission: cyan_bow
+  model_id: 8
+  name: '&fCyan Dyed Bow'

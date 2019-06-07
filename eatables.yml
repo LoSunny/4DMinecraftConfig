@@ -1,0 +1,628 @@
+pizza:
+   enabled: true
+   permission: pizza
+   model_id: 1
+   name: '&fPizza'
+   events:
+      eat:
+         restore_food: 9
+   craft_recipe:
+      enabled: true
+      amount: 4
+      pattern:
+         - XXX
+         - TTT
+         - DDD
+      ingredients:
+         T: tomato
+         D: dough
+taco:
+   enabled: true
+   permission: taco
+   model_id: 2
+   name: '&fTaco'
+   events:
+      eat:
+         restore_food: 6
+   craft_recipe:
+      enabled: true
+      pattern:
+         - XXX
+         - XSC
+         - XPB
+      ingredients:
+         B: baguette
+         C: sliced_roast_beef
+         P: potato_sticks
+         S: lattuce
+hamburger:
+   enabled: true
+   permission: hamburger
+   model_id: 3
+   name: '&fHamburger'
+   events:
+      eat:
+         restore_food: 6
+   craft_recipe:
+      enabled: true
+      pattern:
+         - XIX
+         - TBL
+         - XIK
+      ingredients:
+         I: sliced_bread
+         B: COOKED_BEEF
+         T: tomato
+         L: lattuce
+         K: ketchup
+chips:
+   enabled: true
+   permission: chips
+   model_id: 4
+   name: '&fChips'
+   events:
+      eat:
+         restore_food: 6
+   craft_recipe:
+      enabled: true
+      pattern:
+         - ipi
+         - ipi
+         - ipi
+      ingredients:
+         i: plastic_plate
+         p: POTATO
+hotdog:
+   enabled: true
+   permission: hotdog
+   model_id: 5
+   name: '&fHotdog'
+   events:
+      eat:
+         restore_food: 12
+   craft_recipe:
+      enabled: true
+      pattern:
+         - XXX
+         - KPB
+         - XXX
+      ingredients:
+         B: BREAD
+         P: cooked_sausage
+         K: ketchup
+tropical_fish_nigiri:
+   enabled: true
+   permission: tropical_fish_nigiri
+   model_id: 6
+   name: '&fTropical Fish Nigiri'
+   events:
+      eat:
+         restore_food: 1
+   craft_recipe:
+      enabled: true
+      amount: 4
+      pattern:
+         - XXX
+         - XKX
+         - XFR
+      ingredients:
+         F: TROPICAL_FISH
+         K: DRIED_KELP
+         R: rice
+cod_nigiri:
+   enabled: true
+   permission: cod_nigiri
+   model_id: 7
+   name: '&fCod Nigiri'
+   events:
+      eat:
+         restore_food: 3
+   craft_recipe:
+      enabled: true
+      amount: 4
+      pattern:
+         - XXX
+         - XKX
+         - XFR
+      ingredients:
+         F: COD
+         K: DRIED_KELP
+         R: rice
+salmon_nigiri:
+   enabled: true
+   permission: salmon_nigiri
+   model_id: 8
+   name: '&fSalmon Nigiri'
+   events:
+      eat:
+         restore_food: 4
+   craft_recipe:
+      enabled: true
+      amount: 4
+      pattern:
+         - XXX
+         - XKX
+         - XFR
+      ingredients:
+         F: SALMON
+         K: DRIED_KELP
+         R: rice
+sausage:
+   enabled: true
+   permission: sausage
+   model_id: 9
+   name: '&fSausage'
+   events:
+      eat:
+         restore_food: 1
+   craft_recipe:
+      enabled: true
+      amount: 4
+      pattern:
+         - XXX
+         - XBX
+         - XXX
+      ingredients:
+         B: BEEF
+cooked_sausage:
+   enabled: true
+   permission: cooked_sausage
+   model_id: 10
+   name: '&fCooked Sausage'
+   events:
+      eat:
+         restore_food: 3
+   smelting:
+      enabled: true
+      ingredient: sausage
+      amount: 1
+baguette:
+   enabled: true
+   permission: baguette
+   model_id: 11
+   name: '&fBaguette'
+   events:
+      eat:
+         restore_food: 8
+   smelting:
+      enabled: true
+      ingredient: dough
+      amount: 1
+broken_egg:
+   enabled: true
+   permission: broken_egg
+   model_id: 12
+   name: '&fBroken egg'
+   events:
+      eat:
+         restore_food: 1
+   craft_recipe:
+      enabled: true
+      pattern:
+         - XXX
+         - XEX
+         - XXX
+      ingredients:
+         E: EGG
+fried_egg:
+   enabled: true
+   permission: fried_egg
+   model_id: 13
+   name: '&fFried egg'
+   events:
+      eat:
+         restore_food: 5
+   smelting:
+      enabled: true
+      ingredient: broken_egg
+      amount: 1
+peeled_potato:
+   enabled: true
+   permission: peeled_potato
+   model_id: 14
+   name: '&fPeeled Potato'
+   events:
+      eat:
+         restore_food: 2
+   craft_recipe:
+      enabled: true
+      pattern:
+         - XXX
+         - XKP
+         - XXX
+      ingredients:
+         K: knife
+         P: POTATO
+      return_items:
+         play_sound: knife
+         reduce_durability:
+            knife: 1
+potato_sticks:
+   enabled: true
+   permission: potato_sticks
+   model_id: 15
+   name: '&fPotato Sticks'
+   events:
+      eat:
+         restore_food: 1
+   craft_recipe:
+      enabled: true
+      amount: 2
+      pattern:
+         - XXX
+         - XPX
+         - XXX
+      ingredients:
+         P: peeled_potato
+fried_potato_sticks:
+   enabled: true
+   permission: fried_potato_sticks
+   model_id: 16
+   name: '&fFried Potato Sticks'
+   events:
+      eat:
+         restore_food: 2
+   smelting:
+      enabled: true
+      ingredient: potato_sticks
+      amount: 1
+french_fries:
+   enabled: true
+   permission: french_fries
+   model_id: 17
+   name: '&fFrench Fries'
+   events:
+      eat:
+         restore_food: 8
+   craft_recipe:
+      enabled: true
+      pattern:
+         - XXX
+         - XOX
+         - XPX
+      ingredients:
+         O: fried_potato_sticks
+         P: PAPER
+donut_base:
+   enabled: true
+   permission: donut_base
+   model_id: 18
+   name: '&fDonut base'
+   events:
+      eat:
+         restore_food: 1
+   craft_recipe:
+      enabled: true
+      pattern:
+         - XXX
+         - XXX
+         - XDX
+      ingredients:
+         D: dough
+cooked_donut_base:
+   enabled: true
+   permission: cooked_donut_base
+   model_id: 19
+   name: '&fCooked Donut base'
+   events:
+      eat:
+         restore_food: 3
+   smelting:
+      enabled: true
+      ingredient: donut_base
+      amount: 1
+sweet:
+   enabled: true
+   permission: sweet
+   model_id: 20
+   name: '&fSweet'
+   events:
+      eat:
+         restore_food: 1
+   craft_recipe:
+      enabled: true
+      pattern:
+         - SSS
+         - SWS
+         - SSS
+      ingredients:
+         S: SUGAR
+         W: WATER_BUCKET
+sweet_stick:
+   enabled: true
+   permission: sweet_stick
+   model_id: 21
+   name: '&fSweet stick'
+   craft_recipe:
+      enabled: true
+      amount: 16
+      pattern:
+         - XXX
+         - XSX
+         - XXX
+      ingredients:
+         S: sweet
+pink_donut:
+   enabled: true
+   permission: pink_donut
+   model_id: 22
+   name: '&fPink Donut'
+   events:
+      eat:
+         restore_food: 6
+   craft_recipe:
+      enabled: true
+      pattern:
+         - SSS
+         - SSS
+         - XDX
+      ingredients:
+         S: sweet_stick
+         D: cooked_donut_base
+nether_donut:
+   enabled: true
+   permission: nether_donut
+   model_id: 23
+   name: '&fNether Donut'
+   events:
+      eat:
+         restore_food: 8
+   craft_recipe:
+      enabled: true
+      pattern:
+         - XXX
+         - XNX
+         - XDX
+      ingredients:
+         N: SOUL_SAND
+         D: cooked_donut_base
+cheese:
+   enabled: true
+   permission: cheese
+   model_id: 24
+   name: '&fCheese'
+   events:
+      eat:
+         restore_food: 8
+   craft_recipe:
+      enabled: true
+      pattern:
+         - XXX
+         - XMX
+         - XXX
+      ingredients:
+         M: MILK_BUCKET
+pufferfish_nigiri:
+   enabled: true
+   permission: pufferfish_nigiri
+   model_id: 25
+   name: '&fPufferfish Nigiri'
+   events:
+      eat:
+         restore_food: 1
+   craft_recipe:
+      enabled: true
+      amount: 4
+      pattern:
+         - XXX
+         - XKX
+         - XFR
+      ingredients:
+         F: PUFFERFISH
+         K: DRIED_KELP
+         R: rice
+sliced_bread:
+   enabled: true
+   permission: sliced_bread
+   model_id: 26
+   name: '&fSliced Bread'
+   events:
+      eat:
+         restore_food: 1
+   craft_recipe:
+      enabled: true
+      amount: 5
+      pattern:
+         - XXX
+         - XKB
+         - XXX
+      ingredients:
+         K: knife
+         B: BREAD
+      return_items:
+         play_sound: knife
+         reduce_durability:
+            knife: 1
+sliced_baguette:
+   enabled: true
+   permission: sliced_baguette
+   model_id: 27
+   name: '&fSliced Baguette'
+   events:
+      eat:
+         restore_food: 2
+   craft_recipe:
+      enabled: true
+      amount: 4
+      pattern:
+         - XXX
+         - XKB
+         - XXX
+      ingredients:
+         K: knife
+         B: baguette
+      return_items:
+         play_sound: knife
+         reduce_durability:
+            knife: 1
+sliced_cheese:
+   enabled: true
+   permission: sliced_cheese
+   model_id: 28
+   name: '&fSliced Cheese'
+   events:
+      eat:
+         restore_food: 2
+   craft_recipe:
+      enabled: true
+      amount: 4
+      pattern:
+         - XXX
+         - XKC
+         - XXX
+      ingredients:
+         K: knife
+         C: cheese
+      return_items:
+         play_sound: knife
+         reduce_durability:
+            knife: 1
+blue_parrotfish:
+   enabled: true
+   permission: blue_parrotfish
+   model_id: 29
+   name: '&fBlue Parrotfish'
+   events:
+      eat:
+         restore_food: 2
+      fishing:
+         drop_this_item:
+            chance: 5
+cooked_blue_parrotfish:
+   enabled: true
+   permission: cooked_blue_parrotfish
+   model_id: 30
+   name: '&fCooked Blue Parrotfish'
+   events:
+      eat:
+         restore_food: 8
+   smelting:
+      enabled: true
+      ingredient: cooked_blue_parrotfish
+      amount: 1
+green_sunfish:
+   enabled: true
+   permission: green_sunfish
+   model_id: 31
+   name: '&fGreen Sunfish'
+   events:
+      eat:
+         restore_food: 2
+      fishing:
+         drop_this_item:
+            chance: 5
+cooked_green_sunfish:
+   enabled: true
+   permission: cooked_green_sunfish
+   model_id: 32
+   name: '&fCooked Green Sunfish'
+   events:
+      eat:
+         restore_food: 6
+   smelting:
+      enabled: true
+      ingredient: green_sunfish
+      amount: 1
+goldfish:
+   enabled: true
+   permission: goldfish
+   model_id: 33
+   name: '&fGoldfish'
+   events:
+      eat:
+         restore_food: 1
+      fishing:
+         drop_this_item:
+            chance: 5
+cooked_goldfish:
+   enabled: true
+   permission: cooked_goldfish
+   model_id: 34
+   name: '&fCooked Goldfish'
+   events:
+      eat:
+         restore_food: 6
+   smelting:
+      enabled: true
+      ingredient: goldfish
+      amount: 1
+black_moor_goldfish:
+   enabled: true
+   permission: black_moor_goldfish
+   model_id: 35
+   name: '&fBlack Moor Goldfish'
+   events:
+      eat:
+         restore_food: 3
+      fishing:
+         drop_this_item:
+            chance: 7
+cooked_black_moor_goldfish:
+   enabled: true
+   permission: cooked_black_moor_goldfish
+   model_id: 36
+   name: '&fCooked Black Moor Goldfish'
+   events:
+      eat:
+         restore_food: 8
+   smelting:
+      enabled: true
+      ingredient: black_moor_goldfish
+      amount: 1
+tuna:
+   enabled: true
+   permission: tuna
+   model_id: 37
+   name: '&fTuna'
+   events:
+      eat:
+         restore_food: 4
+      fishing:
+         drop_this_item:
+            chance: 5
+cooked_tuna:
+   enabled: true
+   permission: cooked_tuna
+   model_id: 38
+   name: '&fCooked Tuna'
+   events:
+      eat:
+         restore_food: 8
+   smelting:
+      enabled: true
+      ingredient: tuna
+      amount: 1
+sliced_raw_beef:
+   enabled: true
+   permission: sliced_raw_beef
+   model_id: 39
+   name: '&fSliced Raw Beef'
+   events:
+      eat:
+         restore_food: 1
+   craft_recipe:
+      enabled: true
+      amount: 4
+      pattern:
+         - XXX
+         - XKB
+         - XXX
+      ingredients:
+         K: knife
+         B: BEEF
+      return_items:
+         play_sound: knife
+         reduce_durability:
+            knife: 1
+sliced_roast_beef:
+   enabled: true
+   permission: sliced_roast_beef
+   model_id: 40
+   name: '&fSliced Roast Beef'
+   events:
+      eat:
+         restore_food: 2
+   smelting:
+      enabled: true
+      ingredient: sliced_raw_beef
+      amount: 1

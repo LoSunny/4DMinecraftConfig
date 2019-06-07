@@ -1,0 +1,196 @@
+deadmau5_hat:
+  enabled: true
+  permission: deadmau5_hat
+  model_id: 1
+  name: '&9deadmau5_hat'
+  events:
+    block_break:
+      drop_exp:
+        chance: 50
+        min_amount: 1
+        max_amount: 3
+      drop_this_item:
+        from_block: NETHER_QUARTZ_ORE
+        chance: 50
+        min_amount: 1
+        max_amount: 2
+  craft_recipe:
+    enabled: true
+    pattern:
+      - BXB
+      - XBX
+      - XXX
+    ingredients:
+      B: DIAMOND_BLOCK
+top_hat:
+  enabled: true
+  permission: top_hat
+  model_id: 2
+  name: '&fTop Hat'
+  craft_recipe:
+    enabled: true
+    pattern:
+      - XWX
+      - XWX
+      - WWW
+    ingredients:
+      W: BLACK_WOOL
+welding_mask:
+  enabled: true
+  permission: welding_mask
+  model_id: 3
+  name: '&fWelding Mask'
+  craft_recipe:
+    enabled: true
+    pattern:
+      - GGG
+      - GTG
+      - XXX
+    ingredients:
+      G: IRON_INGOT
+      T: OBSIDIAN
+mining_helmet:
+  enabled: true
+  permission: mining_helmet
+  model_id: 4
+  name: '&fMining Helmet'
+  craft_recipe:
+    enabled: true
+    pattern:
+      - GGG
+      - GTG
+      - XXX
+    ingredients:
+      G: GOLD_INGOT
+      T: TORCH
+dog_mask:
+  enabled: true
+  permission: dog_mask
+  model_id: 5
+  name: '&fDog Mask'
+  craft_recipe:
+    enabled: true
+    pattern:
+      - WWW
+      - WIW
+      - WWW
+    ingredients:
+      W: YELLOW_WOOL
+      I: BONE
+ruby_pickaxe_hat:
+  enabled: true
+  permission: ruby_pickaxe_hat
+  model_id: 6
+  name: '&fRuby Pickaxe Hat'
+  craft_recipe:
+    enabled: true
+    pattern:
+      - RRR
+      - LSL
+      - XSX
+    ingredients:
+      R: ruby
+      S: STICK
+      L: LEATHER
+straw_hat:
+  enabled: true
+  permission: straw_hat
+  model_id: 7
+  name: '&fStraw Hat'
+  events:
+    kill_mob:
+      drop_this_item:
+        from_mob: VILLAGER
+        profession: FARMER
+        chance: 100
+  craft_recipe:
+    enabled: true
+    pattern:
+      - XWX
+      - XSX
+      - WWW
+    ingredients:
+      W: WHEAT
+      S: STRING
+cool_sunglasses:
+  enabled: true
+  permission: cool_sunglasses
+  model_id: 8
+  name: '&fCool Sunglasses'
+  craft_recipe:
+    enabled: true
+    pattern:
+      - XXX
+      - GSG
+      - XXX
+    ingredients:
+      G: BLACK_STAINED_GLASS_PANE
+      S: STICK
+cigar:
+  enabled: true
+  permission: cigar
+  model_id: 9
+  name: '&fCigar'
+  usages: 5
+  events:
+    right_click:
+      play_effect: SMOKE
+      play_sound: entity.creeper.primed
+      reduce_usages: 1
+  craft_recipe:
+    enabled: true
+    pattern:
+      - XXX
+      - TTT
+      - PPP
+    ingredients:
+      P: PAPER
+      T: tabacco
+glasses:
+  enabled: true
+  permission: glasses
+  model_id: 10
+  name: '&fGlasses'
+  craft_recipe:
+    enabled: true
+    pattern:
+      - XXX
+      - GSG
+      - XXX
+    ingredients:
+      G: GLASS_PANE
+      S: STICK
+biker_helmet:
+  enabled: true
+  permission: biker_helmet
+  model_id: 11
+  name: '&fBiker Helmet'
+  craft_recipe:
+    enabled: true
+    pattern:
+      - PPP
+      - BBB
+      - PPP
+    ingredients:
+      P: plastic_plate
+      B: BLACK_STAINED_GLASS_PANE
+cat_ears:
+  enabled: true
+  permission: cat_ears
+  model_id: 12
+  name: '&fCat Ears'
+  craft_recipe:
+    enabled: true
+    pattern:
+      - BWB
+      - PWP
+      - XXX
+    ingredients:
+      P: PINK_WOOL
+      B: BLACK_WOOL
+      W: WHITE_WOOL
+mysterious_hood:
+  enabled: true
+  permission: mysterious_hood
+  model_id: 13
+  name: '&fMysterios Hood'

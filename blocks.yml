@@ -1,0 +1,666 @@
+ruby_block:
+  enabled: true
+  permission: ruby_block
+  model_id: 1
+  name: '&fBlock of Ruby'
+  craft_recipe:
+     enabled: true
+     pattern:
+     - MMM
+     - MMM
+     - MMM
+     ingredients:
+       M: ruby
+crystal_block:
+  enabled: true
+  permission: crystal_block
+  model_id: 2
+  name: '&fBlock of Crystal'
+  craft_recipe:
+     enabled: true
+     pattern:
+     - MMM
+     - MMM
+     - MMM
+     ingredients:
+       M: crystal
+spinel_block:
+  enabled: true
+  permission: spinel_block
+  model_id: 3
+  name: '&fBlock of Spinel'
+  craft_recipe:
+     enabled: true
+     pattern:
+     - MMM
+     - MMM
+     - MMM
+     ingredients:
+       M: spinel
+turquoise_block:
+  enabled: true
+  permission: turquoise_block
+  model_id: 4
+  name: '&fBlock of Turquoise'
+  craft_recipe:
+     enabled: true
+     pattern:
+     - MMM
+     - MMM
+     - MMM
+     ingredients:
+       M: turquoise
+aqua_aura_block:
+  enabled: true
+  permission: aqua_aura_block
+  model_id: 5
+  name: '&fBlock of Aqua Aura'
+  craft_recipe:
+     enabled: true
+     pattern:
+     - MMM
+     - MMM
+     - MMM
+     ingredients:
+       M: aqua_aura
+amethyst_block:
+  enabled: true
+  permission: amethyst_block
+  model_id: 6
+  name: '&fBlock of Amethyst'
+  craft_recipe:
+     enabled: true
+     pattern:
+     - MMM
+     - MMM
+     - MMM
+     ingredients:
+       M: amethyst
+amethyst_prism_block:
+  enabled: true
+  permission: amethyst_prism_block
+  model_id: 7
+  name: '&fBlock of Amethyst Prism'
+  craft_recipe:
+     enabled: true
+     pattern:
+     - MMM
+     - MMM
+     - MMM
+     ingredients:
+       M: amethyst_prism
+crying_obsidian:
+  enabled: true
+  permission: crying_obsidian
+  model_id: 8
+  name: '&9Crying Obsidian'
+  craft_recipe:
+     enabled: true
+     pattern:
+     - LLL
+     - XCO
+     - XXX
+     ingredients:
+       O: OBSIDIAN
+       L: LAPIS_LAZULI
+       C: chisel
+     return_items:
+       reduce_durability:
+         chisel: 1
+nice_stone:
+  enabled: true
+  permission: nice_stone
+  model_id: 9
+  name: '&fNice Stone'
+  craft_recipe:
+    enabled: true
+    pattern:
+      - XXX
+      - XCO
+      - XXX
+    ingredients:
+      O: STONE
+      C: chisel
+    return_items:
+      reduce_durability:
+        chisel: 1
+nice_wood:
+  enabled: true
+  permission: nice_wood
+  model_id: 10
+  name: '&fNice Wood'
+  craft_recipe:
+    enabled: true
+    pattern:
+      - XXX
+      - XCO
+      - XXX
+    ingredients:
+      O: OAK_PLANKS
+      C: chisel
+    return_items:
+      reduce_durability:
+        chisel: 1
+modern_stone:
+  enabled: true
+  permission: modern_stone
+  model_id: 11
+  name: '&fModern Stone'
+  craft_recipe:
+    enabled: true
+    pattern:
+      - XXX
+      - XCO
+      - XXX
+    ingredients:
+      O: COBBLESTONE
+      C: chisel
+    return_items:
+      reduce_durability:
+        chisel: 1
+modern_sandstone:
+  enabled: true
+  permission: modern_sandstone
+  model_id: 12
+  name: '&fModern Sandstone'
+  craft_recipe:
+    enabled: true
+    pattern:
+      - XXX
+      - XCO
+      - XXX
+    ingredients:
+      O: SANDSTONE
+      C: chisel
+    return_items:
+      reduce_durability:
+        chisel: 1
+modern_quartz:
+  enabled: true
+  permission: modern_quartz
+  model_id: 13
+  name: '&fModern Quartz'
+  craft_recipe:
+    enabled: true
+    pattern:
+      - XXX
+      - XCO
+      - XXX
+    ingredients:
+      O: QUARTZ_BLOCK
+      C: chisel
+    return_items:
+      reduce_durability:
+        chisel: 1
+ruby_ore:
+  enabled: true
+  permission: ruby_ore
+  model_id: 14
+  name: '&fRuby Ore'
+  specific_properties:
+    ore:
+      spawn_worlds:
+        - world
+      max_height: 10
+      amount: 2
+      iterations: 3
+    cancel_drop: true
+spinel_ore:
+  enabled: true
+  permission: spinel_ore
+  model_id: 15
+  name: '&fSpinel Ore'
+  specific_properties:
+    ore:
+      spawn_worlds:
+        - world
+      max_height: 16
+      amount: 2
+      iterations: 2
+    cancel_drop: true
+turquoise_ore:
+  enabled: true
+  permission: turquoise_ore
+  model_id: 16
+  name: '&fTurquoise Ore'
+  specific_properties:
+    ore:
+      spawn_worlds:
+        - world
+      max_height: 16
+      amount: 3
+      iterations: 3
+    cancel_drop: true
+aqua_aura_ore:
+  enabled: true
+  permission: aqua_aura_ore
+  model_id: 17
+  name: '&fAqua Aura Ore'
+  specific_properties:
+    ore:
+      spawn_worlds:
+        - world
+      max_height: 10
+      amount: 3
+      iterations: 3
+    cancel_drop: true
+amethyst_ore:
+  enabled: true
+  permission: amethyst_ore
+  model_id: 18
+  name: '&fAmethyst Ore'
+  specific_properties:
+    ore:
+      spawn_worlds:
+        - world
+      max_height: 10
+      amount: 3
+      iterations: 3
+    cancel_drop: true
+bronze_ore:
+  enabled: true
+  permission: bronze_ore
+  model_id: 19
+  name: '&fBronze Ore'
+  specific_properties:
+    ore:
+      spawn_worlds:
+        - world
+      max_height: 32
+      min_height: 16
+      amount: 4
+      iterations: 3
+    cancel_drop: false
+mysterious_ore:
+  enabled: true
+  permission: mysterious_ore
+  model_id: 20
+  name: '&fMysterious Ore'
+  specific_properties:
+    ore:
+      spawn_worlds:
+        - world
+      max_height: 6
+      min_height: 1
+      amount: 2
+      iterations: 3
+    cancel_drop: false
+end_ore:
+  enabled: true
+  permission: end_ore
+  model_id: 21
+  name: '&fEnd Ore'
+  specific_properties:
+    ore:
+      spawn_worlds:
+        - world_the_end
+      max_height: 40
+      min_height: 10
+      amount: 5
+      iterations: 4
+    cancel_drop: true
+restoration_table:
+  enabled: true
+  permission: restoration_table
+  model_id: 22
+  name: '&fRestoration Table'
+  craft_recipe:
+    enabled: true
+    pattern:
+      - RRR
+      - XCX
+      - XXX
+    ingredients:
+      C: CRAFTING_TABLE
+      R: knowledge_fragment
+    return_items:
+      replace:
+        CRAFTING_TABLE: alchemy_candles
+  specific_properties:
+    trade_machine:
+      name: 'Restoration Table'
+      trade_list:
+        mysterious_amulet:
+          ingredients:
+            slot1:
+              item: mysterious_ore
+              amount: 1
+            slot2:
+              item: knowledge_fragment
+              amount: 15
+          result:
+            item: mysterious_amulet
+            amount: 1
+        arcane_ring:
+          ingredients:
+            slot1:
+              item: mysterious_ore
+              amount: 1
+            slot2:
+              item: knowledge_fragment
+              amount: 20
+          result:
+            item: arcane_ring
+            amount: 1
+        mysterious_sword:
+          ingredients:
+            slot1:
+              item: mysterious_ore
+              amount: 1
+            slot2:
+              item: knowledge_fragment
+              amount: 64
+          result:
+            item: mysterious_sword
+            amount: 1
+        mysterious_book:
+          ingredients:
+            slot1:
+              item: mysterious_ore
+              amount: 1
+            slot2:
+              item: knowledge_fragment
+              amount: 2
+          result:
+            item: mysterious_book
+            amount: 1
+        decrypted_mysterious_book:
+          ingredients:
+            slot1:
+              item: mysterious_book
+              amount: 1
+            slot2:
+              item: knowledge_fragment
+              amount: 32
+          result:
+            item: decrypted_mysterious_book
+            amount: 1
+        mysterious_stone:
+          ingredients:
+            slot1:
+              item: decrypted_mysterious_book
+              amount: 1
+            slot2:
+              item: STONE
+              amount: 1
+          result:
+            item: mysterious_stone
+            amount: 1
+        mysterious_hood:
+          ingredients:
+            slot1:
+              item: decrypted_mysterious_book
+              amount: 1
+            slot2:
+              item: knowledge_fragment
+              amount: 20
+          result:
+            item: mysterious_hood
+            amount: 1
+        mysterious_chest:
+          ingredients:
+            slot1:
+              item: decrypted_mysterious_book
+              amount: 1
+            slot2:
+              item: knowledge_fragment
+              amount: 30
+          result:
+            item: mysterious_chest
+            amount: 1
+        mysterious_legs:
+          ingredients:
+            slot1:
+              item: decrypted_mysterious_book
+              amount: 1
+            slot2:
+              item: knowledge_fragment
+              amount: 25
+          result:
+            item: mysterious_legs
+            amount: 1
+        mysterious_boots:
+          ingredients:
+            slot1:
+              item: decrypted_mysterious_book
+              amount: 1
+            slot2:
+              item: knowledge_fragment
+              amount: 21
+          result:
+            item: mysterious_boots
+            amount: 1
+        fossil:
+          ingredients:
+            slot1:
+              item: STONE
+              amount: 2
+          result:
+            item: fossil
+            amount: 5
+        fossil_2:
+          ingredients:
+            slot1:
+              item: COBBLESTONE
+              amount: 4
+          result:
+            item: fossil
+            amount: 5
+customization_table:
+  enabled: true
+  permission: customization_table
+  model_id: 23
+  name: '&fCustomization Table'
+  craft_recipe:
+    enabled: true
+    pattern:
+      - RGB
+      - XCX
+      - XXX
+    ingredients:
+      C: CRAFTING_TABLE
+      R: RED_DYE
+      G: GREEN_DYE
+      B: BLUE_DYE
+  specific_properties:
+    trade_machine:
+      name: 'Customization Table'
+      trade_list:
+        black_fishing_rod:
+          ingredients:
+            slot1:
+              item: FISHING_ROD
+              amount: 1
+            slot2:
+              item: BLACK_DYE
+              amount: 1
+          result:
+            item: black_fishing_rod
+            amount: 1
+        red_fishing_rod:
+          ingredients:
+            slot1:
+              item: FISHING_ROD
+              amount: 1
+            slot2:
+              item: RED_DYE
+              amount: 1
+          result:
+              item: red_fishing_rod
+              amount: 1
+        green_fishing_rod:
+          ingredients:
+            slot1:
+              item: FISHING_ROD
+              amount: 1
+            slot2:
+              item: GREEN_DYE
+              amount: 1
+          result:
+              item: green_fishing_rod
+              amount: 1
+        blue_fishing_rod:
+          ingredients:
+            slot1:
+              item: FISHING_ROD
+              amount: 1
+            slot2:
+              item: LAPIS_LAZULI
+              amount: 1
+          result:
+              item: blue_fishing_rod
+              amount: 1
+        purple_fishing_rod:
+          ingredients:
+            slot1:
+              item: FISHING_ROD
+              amount: 1
+            slot2:
+              item: PURPLE_DYE
+              amount: 1
+          result:
+              item: purple_fishing_rod
+              amount: 1
+        cyan_fishing_rod:
+          ingredients:
+            slot1:
+              item: FISHING_ROD
+              amount: 1
+            slot2:
+              item: CYAN_DYE
+              amount: 1
+          result:
+              item: cyan_fishing_rod
+              amount: 1
+        black_shears:
+          ingredients:
+            slot1:
+              item: SHEARS
+              amount: 1
+            slot2:
+              item: BLACK_DYE
+              amount: 1
+          result:
+              item: black_shears
+              amount: 1
+        red_shears:
+          ingredients:
+            slot1:
+              item: SHEARS
+              amount: 1
+            slot2:
+              item: RED_DYE
+              amount: 1
+          result:
+              item: red_shears
+              amount: 1
+        green_shears:
+          ingredients:
+            slot1:
+              item: SHEARS
+              amount: 1
+            slot2:
+              item: GREEN_DYE
+              amount: 1
+          result:
+              item: green_shears
+              amount: 1
+        blue_shears:
+          ingredients:
+            slot1:
+              item: SHEARS
+              amount: 1
+            slot2:
+              item: LAPIS_LAZULI
+              amount: 1
+          result:
+              item: blue_shears
+              amount: 1
+        purple_shears:
+          ingredients:
+            slot1:
+              item: SHEARS
+              amount: 1
+            slot2:
+              item: PURPLE_DYE
+              amount: 1
+          result:
+              item: purple_shears
+              amount: 1
+        cyan_shears:
+          ingredients:
+            slot1:
+              item: SHEARS
+              amount: 1
+            slot2:
+              item: CYAN_DYE
+              amount: 1
+          result:
+            item: cyan_shears
+            amount: 1
+        black_bow:
+          ingredients:
+            slot1:
+              item: BOW
+              amount: 1
+            slot2:
+              item: BLACK_DYE
+              amount: 1
+          result:
+            item: black_bow
+            amount: 1
+        red_bow:
+          ingredients:
+            slot1:
+              item: BOW
+              amount: 1
+            slot2:
+              item: RED_DYE
+              amount: 1
+          result:
+              item: red_bow
+              amount: 1
+        green_bow:
+          ingredients:
+            slot1:
+              item: BOW
+              amount: 1
+            slot2:
+              item: GREEN_DYE
+              amount: 1
+          result:
+              item: green_bow
+              amount: 1
+        blue_bow:
+          ingredients:
+            slot1:
+              item: BOW
+              amount: 1
+            slot2:
+              item: LAPIS_LAZULI
+              amount: 1
+          result:
+              item: blue_bow
+              amount: 1
+        purple_bow:
+          ingredients:
+            slot1:
+              item: BOW
+              amount: 1
+            slot2:
+              item: PURPLE_DYE
+              amount: 1
+          result:
+              item: purple_bow
+              amount: 1
+        cyan_bow:
+          ingredients:
+            slot1:
+              item: BOW
+              amount: 1
+            slot2:
+              item: CYAN_DYE
+              amount: 1
+          result:
+              item: cyan_bow
+              amount: 1

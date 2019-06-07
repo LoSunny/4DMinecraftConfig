@@ -1,0 +1,162 @@
+tomato_seeds:
+  enabled: true
+  permission: tomato_seeds
+  model_id: 1
+  name: '&fTomato Seeds'
+  events:
+    block_break:
+      drop_this_item:
+        from_block: GRASS
+        chance: 5
+        min_amount: 1
+        max_amount: 2
+  specific_properties:
+    crop_block: WHEAT
+    result:
+      item: tomato
+      min_amount: 1
+      max_amount: 2
+  craft_recipe:
+    enabled: true
+    amount: 2
+    pattern:
+      - XXX
+      - XOX
+      - XXX
+    ingredients:
+      O: tomato
+garlic_seeds:
+  enabled: true
+  permission: garlic_seeds
+  model_id: 2
+  name: '&fGarlic Seeds'
+  events:
+    block_break:
+      drop_this_item:
+        from_block: GRASS
+        chance: 5
+        min_amount: 1
+        max_amount: 2
+  specific_properties:
+    crop_block: CARROTS
+    result:
+      item: garlic
+      min_amount: 1
+      max_amount: 2
+  craft_recipe:
+    enabled: true
+    amount: 2
+    pattern:
+      - XXX
+      - XOX
+      - XXX
+    ingredients:
+      O: garlic
+lattuce_seeds:
+  enabled: true
+  permission: lattuce_seeds
+  model_id: 3
+  name: '&fLattuce Seeds'
+  events:
+    block_break:
+      drop_this_item:
+        from_block: FERN
+        chance: 10
+        min_amount: 1
+        max_amount: 2
+  specific_properties:
+    crop_block: POTATOES
+    result:
+      item: lattuce
+      min_amount: 1
+      max_amount: 2
+  craft_recipe:
+    enabled: true
+    amount: 2
+    pattern:
+      - XXX
+      - XOX
+      - XXX
+    ingredients:
+      O: lattuce
+chili_pepper_seeds:
+  enabled: true
+  permission: chili_pepper_seeds
+  model_id: 4
+  name: '&fChili Pepper Seeds'
+  events:
+    block_break:
+      drop_this_item:
+        from_block: TALL_GRASS
+        chance: 5
+        min_amount: 1
+        max_amount: 2
+  specific_properties:
+    crop_block: BEETROOTS
+    result:
+      item: chili_pepper
+      min_amount: 1
+      max_amount: 2
+  craft_recipe:
+    enabled: true
+    amount: 2
+    pattern:
+      - XXX
+      - XOX
+      - XXX
+    ingredients:
+      O: chili_pepper
+rice_seeds:
+  enabled: true
+  permission: rice_seeds
+  model_id: 5
+  name: '&fRice Seeds'
+  events:
+    block_break:
+      drop_this_item:
+        from_block: GRASS
+        chance: 10
+        min_amount: 1
+        max_amount: 2
+  specific_properties:
+    crop_block: WHEAT
+    result:
+      item: rice
+      min_amount: 1
+      max_amount: 2
+  craft_recipe:
+    enabled: true
+    amount: 2
+    pattern:
+      - XXX
+      - XOX
+      - XXX
+    ingredients:
+      O: rice
+tabacco_seeds:
+  enabled: true
+  permission: tabacco_seeds
+  model_id: 6
+  name: '&fTabacco Seeds'
+  events:
+    block_break:
+      drop_this_item:
+        from_block: DEAD_BUSH
+        chance: 10
+        min_amount: 1
+        max_amount: 2
+  specific_properties:
+    crop_block: WHEAT
+    result:
+      item: tabacco
+      min_amount: 1
+      max_amount: 1
+  craft_recipe:
+    enabled: true
+    amount: 2
+    pattern:
+      - XXX
+      - XOX
+      - XXX
+    ingredients:
+      O: tabacco

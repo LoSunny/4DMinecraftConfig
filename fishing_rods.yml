@@ -1,0 +1,30 @@
+black_fishing_rod:
+  enabled: true
+  permission: black_fishing_rod
+  model_id: 1
+  name: '&fBlack Dyed Fishing Rod'
+red_fishing_rod:
+  enabled: true
+  permission: red_fishing_rod
+  model_id: 2
+  name: '&fRed Dyed Fishing Rod'
+green_fishing_rod:
+  enabled: true
+  permission: green_fishing_rod
+  model_id: 3
+  name: '&fGreen Dyed Fishing Rod'
+blue_fishing_rod:
+  enabled: true
+  permission: blue_fishing_rod
+  model_id: 4
+  name: '&fBlue Dyed Fishing Rod'
+purple_fishing_rod:
+  enabled: true
+  permission: purple_fishing_rod
+  model_id: 5
+  name: '&fPurple Dyed Fishing Rod'
+cyan_fishing_rod:
+  enabled: true
+  permission: cyan_fishing_rod
+  model_id: 6
+  name: '&fCyan Dyed Fishing Rod'

@@ -1,0 +1,447 @@
+empty_cup:
+  enabled: true
+  permission: empty_cup
+  model_id: 1
+  name: '&fEmpty cup'
+  craft_recipe:
+     enabled: true
+     pattern:
+     - XXX
+     - CXC
+     - CCC
+     ingredients:
+       C: CLAY
+flour:
+  enabled: true
+  permission: flour
+  model_id: 2
+  name: '&fFlour'
+  craft_recipe:
+    enabled: true
+    amount: 4
+    pattern:
+      - XXX
+      - XWX
+      - XXX
+    ingredients:
+      W: WHEAT
+dough:
+  enabled: true
+  permission: dough
+  model_id: 3
+  name: '&fDough'
+  craft_recipe:
+    enabled: true
+    amount: 8
+    pattern:
+      - XFX
+      - XFX
+      - XWX
+    ingredients:
+      F: flour
+      W: WATER_BUCKET
+cup_of_water:
+  enabled: true
+  permission: cup_of_water
+  model_id: 4
+  name: '&fCup of water'
+  craft_recipe:
+    enabled: true
+    pattern:
+      - XXX
+      - XWX
+      - XCX
+    ingredients:
+      C: empty_cup
+      W: WATER_BUCKET
+cup_of_hot_water:
+  enabled: true
+  permission: cup_of_hot_water
+  model_id: 5
+  name: '&fCup of hot water'
+  smelting:
+    enabled: true
+    ingredient: cup_of_water
+    amount: 1
+projectile:
+  enabled: true
+  permission: projectile
+  model_id: 6
+  name: '&fProjectile'
+  lore:
+    - "&3Hold it in the left"
+    - "&3hand while shooting"
+    - "&3with a gun"
+  craft_recipe:
+    enabled: true
+    amount: 16
+    pattern:
+      - XXX
+      - XRX
+      - XGX
+    ingredients:
+      R: REDSTONE
+      G: GOLD_INGOT
+plastic:
+  enabled: true
+  permission: plastic
+  model_id: 7
+  name: '&fPlastic'
+  smelting:
+    enabled: true
+    ingredient: fossil
+    amount: 2
+plastic_plate:
+  enabled: true
+  permission: plastic_plate
+  model_id: 8
+  name: '&fPlastic plate'
+  craft_recipe:
+    enabled: true
+    pattern:
+      - XXX
+      - XXX
+      - PPP
+    ingredients:
+      P: plastic
+clip:
+  enabled: true
+  permission: clip
+  model_id: 9
+  name: '&fClip'
+  lore:
+    - "&3Hold it in the left"
+    - "&3hand while shooting"
+    - "&3with an ak-47"
+  craft_recipe:
+    enabled: true
+    amount: 16
+    pattern:
+      - XRX
+      - XGX
+      - XPX
+    ingredients:
+      R: REDSTONE
+      G: GOLD_INGOT
+      P: plastic_plate
+blank_disc:
+  enabled: true
+  permission: blank_disc
+  model_id: 10
+  name: '&fBlank Disc'
+  lore:
+    - "&7Can be used to craft"
+    - "&7music discs"
+  craft_recipe:
+    enabled: true
+    pattern:
+      - PPP
+      - PXP
+      - PPP
+    ingredients:
+      P: plastic
+music_disc_electric_keys:
+  enabled: true
+  permission: music_disc_electric_keys
+  model_id: 11
+  name: '&bMusic Disc'
+  lore:
+    - "&7Electric keys"
+  specific_properties:
+    music_disc:
+      song_description: '&bElectric keys'
+      song_name: music_disc_electric_keys
+  craft_recipe:
+    enabled: true
+    pattern:
+      - XXX
+      - XBD
+      - XXX
+    ingredients:
+      B: blank_disc
+      D: DIAMOND
+music_disc_cdk_sunday:
+  enabled: true
+  permission: music_disc_cdk_sunday
+  model_id: 12
+  name: '&bMusic Disc'
+  lore:
+    - "&7Cdk - Sunday"
+  specific_properties:
+    music_disc:
+      song_description: '&bCdk - Sunday'
+      song_name: music_disc_cdk_sunday
+  craft_recipe:
+    enabled: true
+    pattern:
+      - XXX
+      - XBD
+      - XXX
+    ingredients:
+      B: blank_disc
+      D: amethyst_prism
+music_disc_vidian_aether_theories:
+  enabled: true
+  permission: music_disc_vidian_aether_theories
+  model_id: 13
+  name: '&bMusic Disc'
+  lore:
+    - "&7Vidian - Aether Theories"
+  specific_properties:
+    music_disc:
+      song_description: '&bVidian - Aether Theories'
+      song_name: music_disc_vidian_aether_theories
+  craft_recipe:
+    enabled: true
+    pattern:
+      - XXX
+      - XBD
+      - XXX
+    ingredients:
+      B: blank_disc
+      D: ruby
+ketchup_bottle:
+  enabled: true
+  permission: ketchup_bottle
+  model_id: 14
+  name: '&fKetchup Bottle'
+  lore:
+    - "&7Put in the crafting table"
+    - "&7middle slot to get"
+    - "&7some Ketchup"
+  craft_recipe:
+    enabled: true
+    pattern:
+      - PTP
+      - PTP
+      - PTP
+    ingredients:
+      P: plastic_plate
+      T: tomato
+ketchup:
+  enabled: true
+  permission: ketchup
+  model_id: 15
+  name: '&fKetchup'
+  lore:
+    - "&7Obtained from"
+    - "&7ketchup bottle"
+  craft_recipe:
+    enabled: true
+    amount: 16
+    pattern:
+      - XXX
+      - XBX
+      - XXX
+    ingredients:
+      B: ketchup_bottle
+chili_powder:
+  enabled: true
+  permission: chili_powder
+  model_id: 16
+  name: '&fChili Powder'
+  lore:
+    - "&7Obtained from"
+    - "&7chili pepper"
+  craft_recipe:
+    enabled: true
+    amount: 4
+    pattern:
+      - XXX
+      - XXX
+      - XBX
+    ingredients:
+      B: chili_pepper
+drink_glass:
+  enabled: true
+  permission: drink_glass
+  model_id: 17
+  name: '&fDrink Glass'
+  craft_recipe:
+    enabled: true
+    amount: 4
+    pattern:
+      - XXX
+      - XGX
+      - XXX
+    ingredients:
+      G: GLASS
+bug_medal:
+  enabled: true
+  permission: bug_medal
+  model_id: 18
+  name: '&6BugFinder medal'
+  lore:
+    - "&7Medal won by"
+    - "&7a very good"
+    - "&7bug finder."
+cute_medal:
+  enabled: true
+  permission: cute_medal
+  model_id: 19
+  name: '&6Cuteness medal'
+  lore:
+    - "&7Medal won by"
+    - "&7the cutest person."
+donator_medal:
+  enabled: true
+  permission: donator_medal
+  model_id: 20
+  name: '&6Donator medal'
+  lore:
+    - "&7Medal won by"
+    - "&7the most generous."
+energy_orb:
+  enabled: true
+  permission: energy_orb
+  model_id: 21
+  name: '&5Energy Orb'
+  lore:
+    - "&7Obtained from Energy Extractor"
+  craft_recipe:
+    enabled: true
+    amount: 64
+    pattern:
+      - XXX
+      - XGX
+      - XXX
+    ingredients:
+      G: energy_capsule
+  result_recipe_1:
+    enabled: true
+    pattern:
+      - XXX
+      - XSX
+      - XXX
+    ingredients:
+      S: small_energy_capsule
+    result:
+      item: energy_orb
+      amount: 8
+  result_recipe_2:
+    enabled: true
+    pattern:
+      - XXX
+      - XSX
+      - XXX
+    ingredients:
+      S: energy_capsule
+    result:
+      item: energy_orb
+      amount: 64
+small_energy_capsule:
+  enabled: true
+  permission: small_energy_capsule
+  model_id: 22
+  name: '&dSmall Energy Capsule'
+  lore:
+    - "&7Contains &5Energy Orbs &fx8"
+  craft_recipe:
+    enabled: true
+    pattern:
+      - GGG
+      - GXG
+      - GGG
+    ingredients:
+      G: energy_orb
+energy_capsule:
+  enabled: true
+  permission: energy_capsule
+  model_id: 23
+  name: '&6Energy Capsule'
+  lore:
+    - "&7Contains &dSmall Energy Capsule &fx8"
+    - "&7(&5Energy Orbs &fx64&7)"
+  craft_recipe:
+    enabled: true
+    pattern:
+      - GGG
+      - GXG
+      - GGG
+    ingredients:
+      G: small_energy_capsule
+iron_plate:
+  enabled: true
+  permission: iron_plate
+  model_id: 24
+  name: '&fIron Plate'
+  craft_recipe:
+    enabled: true
+    pattern:
+      - XXX
+      - XXX
+      - XII
+    ingredients:
+      I: IRON_INGOT
+tabacco:
+  enabled: true
+  permission: tabacco
+  model_id: 25
+  name: '&fTabacco'
+nest:
+  enabled: true
+  permission: nest
+  model_id: 26
+  name: '&fNest'
+  events:
+    block_break:
+      drop_this_item:
+        from_block: OAK_LEAVES
+        need_pickaxe: false
+        chance: 3
+        min_amount: 1
+        max_amount: 2
+eggs_nest:
+  enabled: true
+  permission: eggs_nest
+  model_id: 27
+  name: '&fEggs Nest'
+  events:
+    block_break:
+      drop_this_item:
+        from_block: OAK_LEAVES
+        need_pickaxe: false
+        chance: 1
+        min_amount: 1
+        max_amount: 2
+  craft_recipe:
+    enabled: true
+    pattern:
+      - XXX
+      - XNX
+      - EEE
+    ingredients:
+      E: EGG
+      N: nest
+  result_recipe:
+    enabled: true
+    pattern:
+      - XXX
+      - XNX
+      - XXX
+    ingredients:
+      N: eggs_nest
+    result:
+      item: EGG
+      amount: 3
+    return_items:
+      replace:
+        eggs_nest: nest
+mysterious_artifact:
+  enabled: true
+  permission: mysterious_artifact
+  model_id: 28
+  name: '&fMysterious Artifact'
+  craft_recipe:
+    enabled: true
+    pattern:
+      - XXX
+      - XCM
+      - XXX
+    ingredients:
+      C: chisel
+      M: mysterious_ore
+    return_items:
+      play_sound: angelic
+      reduce_durability:
+        chisel: 1

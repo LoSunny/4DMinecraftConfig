@@ -1,0 +1,472 @@
+ruby_head:
+  enabled: true
+  permission: rubyarmor
+  name: '&fRuby helmet'
+  specific_properties:
+    armor: 9
+    armor_color: 'ff0000'
+    armor_type: head
+  craft_recipe:
+    enabled: true
+    pattern:
+      - rrr
+      - rXr
+      - XXX
+    ingredients:
+      r: ruby
+ruby_chest:
+  enabled: true
+  permission: rubyarmor
+  name: '&fRuby chestplate'
+  specific_properties:
+    armor: 7
+    armor_color: 'ff0000'
+    armor_type: chest
+  craft_recipe:
+    enabled: true
+    pattern:
+      - rXr
+      - rrr
+      - rrr
+    ingredients:
+      r: ruby
+ruby_legs:
+  enabled: true
+  permission: rubyarmor
+  name: '&fRuby leggings'
+  specific_properties:
+    armor: 5
+    armor_color: 'ff0000'
+    armor_type: legs
+  craft_recipe:
+    enabled: true
+    pattern:
+      - rrr
+      - rXr
+      - rXr
+    ingredients:
+      r: ruby
+ruby_boots:
+  enabled: true
+  permission: rubyarmor
+  name: '&fRuby boots'
+  specific_properties:
+    armor: 3
+    armor_color: 'ff0000'
+    armor_type: boots
+  craft_recipe:
+    enabled: true
+    pattern:
+      - XXX
+      - rXr
+      - rXr
+    ingredients:
+      r: ruby
+spinel_head:
+  enabled: true
+  permission: spinelarmor
+  name: '&fSpinel helmet'
+  specific_properties:
+    armor: 9
+    armor_color: 'ff7e7e'
+    armor_type: head
+  craft_recipe:
+    enabled: true
+    pattern:
+      - rrr
+      - rXr
+      - XXX
+    ingredients:
+      r: spinel
+spinel_chest:
+  enabled: true
+  permission: spinelarmor
+  name: '&fSpinel chestplate'
+  specific_properties:
+    armor: 7
+    armor_color: 'ff7e7e'
+    armor_type: chest
+  craft_recipe:
+    enabled: true
+    pattern:
+      - rXr
+      - rrr
+      - rrr
+    ingredients:
+      r: spinel
+spinel_legs:
+  enabled: true
+  permission: spinelarmor
+  name: '&fSpinel leggings'
+  specific_properties:
+    armor: 5
+    armor_color: 'ff7e7e'
+    armor_type: legs
+  craft_recipe:
+    enabled: true
+    pattern:
+      - rrr
+      - rXr
+      - rXr
+    ingredients:
+      r: spinel
+spinel_boots:
+  enabled: true
+  permission: spinelarmor
+  name: '&fSpinel boots'
+  specific_properties:
+    armor: 3
+    armor_color: 'ff7e7e'
+    armor_type: boots
+  craft_recipe:
+    enabled: true
+    pattern:
+      - XXX
+      - rXr
+      - rXr
+    ingredients:
+      r: spinel
+turquoise_head:
+  enabled: true
+  permission: turquoisearmor
+  name: '&fTurquoise helmet'
+  specific_properties:
+    armor: 9
+    armor_color: '75bebe'
+    armor_type: head
+  craft_recipe:
+    enabled: true
+    pattern:
+      - rrr
+      - rXr
+      - XXX
+    ingredients:
+      r: turquoise
+turquoise_chest:
+  enabled: true
+  permission: turquoisearmor
+  name: '&fTurquoise chestplate'
+  specific_properties:
+    armor: 7
+    armor_color: '75bebe'
+    armor_type: chest
+  craft_recipe:
+    enabled: true
+    pattern:
+      - rXr
+      - rrr
+      - rrr
+    ingredients:
+      r: turquoise
+turquoise_legs:
+  enabled: true
+  permission: turquoisearmor
+  name: '&fTurquoise leggings'
+  specific_properties:
+    armor: 5
+    armor_color: '75bebe'
+    armor_type: legs
+  craft_recipe:
+    enabled: true
+    pattern:
+      - rrr
+      - rXr
+      - rXr
+    ingredients:
+      r: turquoise
+turquoise_boots:
+  enabled: true
+  permission: turquoisearmor
+  name: '&fTurquoise boots'
+  specific_properties:
+    armor: 3
+    armor_color: '75bebe'
+    armor_type: boots
+  craft_recipe:
+    enabled: true
+    pattern:
+      - XXX
+      - rXr
+      - rXr
+    ingredients:
+      r: turquoise
+aqua_head:
+  enabled: true
+  permission: aquaarmor
+  name: '&fAqua Aura helmet'
+  specific_properties:
+    armor: 9
+    armor_color: '16d4ff'
+    armor_type: head
+  craft_recipe:
+    enabled: true
+    pattern:
+      - rrr
+      - rXr
+      - XXX
+    ingredients:
+      r: aqua_aura
+aqua_chest:
+  enabled: true
+  permission: aquaarmor
+  name: '&fAqua Aura chestplate'
+  specific_properties:
+    armor: 7
+    armor_color: '16d4ff'
+    armor_type: chest
+  craft_recipe:
+    enabled: true
+    pattern:
+      - rXr
+      - rrr
+      - rrr
+    ingredients:
+      r: aqua_aura
+aqua_legs:
+  enabled: true
+  permission: aquaarmor
+  name: '&fAqua Aura leggings'
+  specific_properties:
+    armor: 5
+    armor_color: '16d4ff'
+    armor_type: legs
+  craft_recipe:
+    enabled: true
+    pattern:
+      - rrr
+      - rXr
+      - rXr
+    ingredients:
+      r: aqua_aura
+aqua_boots:
+  enabled: true
+  permission: aquaarmor
+  name: '&fAqua Aura boots'
+  specific_properties:
+    armor: 3
+    armor_color: '16d4ff'
+    armor_type: boots
+  craft_recipe:
+    enabled: true
+    pattern:
+      - XXX
+      - rXr
+      - rXr
+    ingredients:
+      r: aqua_aura
+amethyst_head:
+  enabled: true
+  permission: amethystarmor
+  name: '&fAmethyst helmet'
+  specific_properties:
+    armor: 9
+    armor_color: '530766'
+    armor_type: head
+  craft_recipe:
+    enabled: true
+    pattern:
+      - rrr
+      - rXr
+      - XXX
+    ingredients:
+      r: amethyst
+amethyst_chest:
+  enabled: true
+  permission: amethystarmor
+  name: '&fAmethyst chestplate'
+  specific_properties:
+    armor: 7
+    armor_color: '530766'
+    armor_type: chest
+  craft_recipe:
+    enabled: true
+    pattern:
+      - rXr
+      - rrr
+      - rrr
+    ingredients:
+      r: amethyst
+amethyst_legs:
+  enabled: true
+  permission: amethystarmor
+  name: '&fAmethyst leggings'
+  specific_properties:
+    armor: 5
+    armor_color: '530766'
+    armor_type: legs
+  craft_recipe:
+    enabled: true
+    pattern:
+      - rrr
+      - rXr
+      - rXr
+    ingredients:
+      r: amethyst
+amethyst_boots:
+  enabled: true
+  permission: amethystarmor
+  name: '&fAmethyst boots'
+  specific_properties:
+    armor: 3
+    armor_color: '530766'
+    armor_type: boots
+  craft_recipe:
+    enabled: true
+    pattern:
+      - XXX
+      - rXr
+      - rXr
+    ingredients:
+      r: amethyst
+emerald_head:
+  enabled: true
+  permission: emeraldhead
+  name: '&fEmerald helmet'
+  specific_properties:
+    armor: 9
+    armor_color: '00ff72'
+    armor_type: head
+  craft_recipe:
+    enabled: true
+    pattern:
+      - rrr
+      - rXr
+      - XXX
+    ingredients:
+      r: EMERALD
+emerald_chest:
+  enabled: true
+  permission: emeraldarmor
+  name: '&fEmerald chestplate'
+  specific_properties:
+    armor: 7
+    armor_color: '00ff72'
+    armor_type: chest
+  craft_recipe:
+    enabled: true
+    pattern:
+      - rXr
+      - rrr
+      - rrr
+    ingredients:
+      r: EMERALD
+emerald_legs:
+  enabled: true
+  permission: emeraldarmor
+  name: '&fEmerald leggings'
+  specific_properties:
+    armor: 5
+    armor_color: '00ff72'
+    armor_type: legs
+  craft_recipe:
+    enabled: true
+    pattern:
+      - rrr
+      - rXr
+      - rXr
+    ingredients:
+      r: EMERALD
+emerald_boots:
+  enabled: true
+  permission: emeraldarmor
+  name: '&fEmerald boots'
+  specific_properties:
+    armor: 3
+    armor_color: '00ff72'
+    armor_type: boots
+  craft_recipe:
+    enabled: true
+    pattern:
+      - XXX
+      - rXr
+      - rXr
+    ingredients:
+      r: EMERALD
+obsidian_head:
+  enabled: true
+  permission: obsidianhead
+  name: '&fObsidian helmet'
+  specific_properties:
+    armor: 9
+    armor_color: '010002'
+    armor_type: head
+  craft_recipe:
+    enabled: true
+    pattern:
+      - rrr
+      - rXr
+      - XXX
+    ingredients:
+      r: OBSIDIAN
+obsidian_chest:
+  enabled: true
+  permission: obsidianarmor
+  name: '&fObsidian chestplate'
+  specific_properties:
+    armor: 7
+    armor_color: '010002'
+    armor_type: chest
+  craft_recipe:
+    enabled: true
+    pattern:
+      - rXr
+      - rrr
+      - rrr
+    ingredients:
+      r: OBSIDIAN
+obsidian_legs:
+  enabled: true
+  permission: obsidianarmor
+  name: '&fObsidian leggings'
+  specific_properties:
+    armor: 5
+    armor_color: '010002'
+    armor_type: legs
+  craft_recipe:
+    enabled: true
+    pattern:
+      - rrr
+      - rXr
+      - rXr
+    ingredients:
+      r: OBSIDIAN
+obsidian_boots:
+  enabled: true
+  permission: obsidianarmor
+  name: '&fObsidian boots'
+  specific_properties:
+    armor: 3
+    armor_color: '010002'
+    armor_type: boots
+  craft_recipe:
+    enabled: true
+    pattern:
+      - XXX
+      - rXr
+      - rXr
+    ingredients:
+      r: OBSIDIAN
+mysterious_chest:
+  enabled: true
+  permission: mysterious_armor
+  name: '&fMysterious chestplate'
+  specific_properties:
+    armor: 6
+    armor_color: '570e11'
+    armor_type: chest
+mysterious_legs:
+  enabled: true
+  permission: mysterious_armor
+  name: '&fMysterious leggings'
+  specific_properties:
+    armor: 5
+    armor_color: '570e11'
+    armor_type: legs
+mysterious_boots:
+  enabled: true
+  permission: mysterious_armor
+  name: '&fMysterious boots'
+  specific_properties:
+    armor: 2
+    armor_color: '570e11'
+    armor_type: boots

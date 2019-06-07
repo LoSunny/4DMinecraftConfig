@@ -1,0 +1,462 @@
+ruby_axe:
+  enabled: true
+  permission: ruby_axe
+  model_id: 1
+  vanilla_type: DIAMOND_AXE
+  name: '&fRuby axe'
+  craft_recipe:
+    enabled: true
+    pattern:
+      - MMX
+      - MSX
+      - XSX
+    ingredients:
+      M: ruby
+      S: STICK
+crystal_axe:
+  enabled: true
+  permission: crystal_axe
+  model_id: 1
+  vanilla_type: WOODEN_AXE
+  name: '&fCrystal axe'
+  craft_recipe:
+    enabled: true
+    pattern:
+      - MMX
+      - MSX
+      - XSX
+    ingredients:
+      M: crystal
+      S: STICK
+spinel_axe:
+  enabled: true
+  permission: spinel_axe
+  model_id: 2
+  vanilla_type: DIAMOND_AXE
+  name: '&fSpinel axe'
+  craft_recipe:
+    enabled: true
+    pattern:
+      - MMX
+      - MSX
+      - XSX
+    ingredients:
+      M: spinel
+      S: STICK
+turquoise_axe:
+  enabled: true
+  permission: turquoise_axe
+  model_id: 3
+  vanilla_type: DIAMOND_AXE
+  name: '&fTurquoise axe'
+  craft_recipe:
+    enabled: true
+    pattern:
+      - MMX
+      - MSX
+      - XSX
+    ingredients:
+      M: turquoise
+      S: STICK
+aqua_aura_axe:
+  enabled: true
+  permission: aqua_aura_axe
+  model_id: 4
+  vanilla_type: DIAMOND_AXE
+  name: '&fAqua Aura axe'
+  craft_recipe:
+    enabled: true
+    pattern:
+      - MMX
+      - MSX
+      - XSX
+    ingredients:
+      M: aqua_aura
+      S: STICK
+amethyst_axe:
+  enabled: true
+  permission: amethyst_axe
+  model_id: 5
+  vanilla_type: DIAMOND_AXE
+  name: '&fAmethyst axe'
+  craft_recipe:
+    enabled: true
+    pattern:
+      - MMX
+      - MSX
+      - XSX
+    ingredients:
+      M: amethyst
+      S: STICK
+astral_pickaxe:
+  enabled: true
+  permission: astral_pickaxe
+  model_id: 1
+  vanilla_type: DIAMOND_PICKAXE
+  name: '&3Astral pickaxe'
+  craft_recipe:
+    enabled: true
+    pattern:
+      - cec
+      - XrX
+      - XrX
+    ingredients:
+      c: ruby
+      e: EMERALD
+      r: BLAZE_ROD
+diamond_hammer:
+  enabled: true
+  permission: diamond_hammer
+  model_id: 2
+  vanilla_type: DIAMOND_PICKAXE
+  name: '&3&lDiamond hammer'
+  events:
+    block_break:
+      multiple_break:
+        keep_ores: true
+        drop_all_blocks:
+          enabled: true
+          need_silk_touch: true
+        size: 3
+  craft_recipe:
+    enabled: true
+    pattern:
+      - ddd
+      - dsd
+      - XsX
+    ingredients:
+      s: STICK
+      d: DIAMOND
+demoniac_pickaxe:
+  enabled: true
+  permission: demoniac_pickaxe
+  model_id: 3
+  vanilla_type: DIAMOND_PICKAXE
+  name: '&4&lDemoniac pickaxe'
+  lore:
+    - "&7When you mine a block"
+    - "&7it drops an exp orb"
+    - "&750% of times."
+  events:
+    block_break:
+      drop_exp:
+        chance: 50
+        min_amount: 1
+        max_amount: 3
+  craft_recipe:
+    enabled: true
+    pattern:
+      - rbr
+      - csc
+      - csc
+    ingredients:
+      s: BLAZE_ROD
+      c: COAL
+      r: ruby
+      b: REDSTONE_BLOCK
+ruby_pickaxe:
+  enabled: true
+  permission: ruby_pickaxe
+  model_id: 4
+  vanilla_type: DIAMOND_PICKAXE
+  name: '&fRuby pickaxe'
+  craft_recipe:
+    enabled: true
+    pattern:
+      - RRR
+      - XSX
+      - XSX
+    ingredients:
+      R: ruby
+      S: STICK
+crystal_pickaxe:
+  enabled: true
+  permission: crystal_pickaxe
+  model_id: 1
+  vanilla_type: WOODEN_PICKAXE
+  name: '&fCrystal pickaxe'
+  craft_recipe:
+    enabled: true
+    pattern:
+      - RRR
+      - XSX
+      - XSX
+    ingredients:
+      R: crystal
+      S: STICK
+spinel_pickaxe:
+  enabled: true
+  permission: spinel_pickaxe
+  model_id: 5
+  vanilla_type: DIAMOND_PICKAXE
+  name: '&fSpinel pickaxe'
+  craft_recipe:
+    enabled: true
+    pattern:
+      - RRR
+      - XSX
+      - XSX
+    ingredients:
+      R: spinel
+      S: STICK
+turquoise_pickaxe:
+  enabled: true
+  permission: turquoise_pickaxe
+  model_id: 6
+  vanilla_type: DIAMOND_PICKAXE
+  name: '&fTurquoise pickaxe'
+  craft_recipe:
+    enabled: true
+    pattern:
+      - RRR
+      - XSX
+      - XSX
+    ingredients:
+      R: turquoise
+      S: STICK
+aqua_pickaxe:
+  enabled: true
+  permission: aqua_pickaxe
+  model_id: 7
+  vanilla_type: DIAMOND_PICKAXE
+  name: '&fAqua Aura pickaxe'
+  craft_recipe:
+    enabled: true
+    pattern:
+      - RRR
+      - XSX
+      - XSX
+    ingredients:
+      R: aqua_aura
+      S: STICK
+amethyst_pickaxe:
+  enabled: true
+  permission: amethyst_pickaxe
+  model_id: 8
+  vanilla_type: DIAMOND_PICKAXE
+  name: '&fAmethyst pickaxe'
+  craft_recipe:
+    enabled: true
+    pattern:
+      - RRR
+      - XSX
+      - XSX
+    ingredients:
+      R: amethyst
+      S: STICK
+ruby_hoe:
+  enabled: true
+  permission: ruby_hoe
+  model_id: 1
+  vanilla_type: DIAMOND_HOE
+  name: '&fRuby hoe'
+  craft_recipe:
+    enabled: true
+    pattern:
+      - RRX
+      - XSX
+      - XSX
+    ingredients:
+      R: ruby
+      S: STICK
+crystal_hoe:
+  enabled: true
+  permission: crystal_hoe
+  model_id: 1
+  vanilla_type: WOODEN_HOE
+  name: '&fCrystal hoe'
+  craft_recipe:
+    enabled: true
+    pattern:
+      - RRX
+      - XSX
+      - XSX
+    ingredients:
+      R: crystal
+      S: STICK
+spinel_hoe:
+  enabled: true
+  permission: spinel_hoe
+  model_id: 2
+  vanilla_type: DIAMOND_HOE
+  name: '&fSpinel hoe'
+  craft_recipe:
+    enabled: true
+    pattern:
+      - RRX
+      - XSX
+      - XSX
+    ingredients:
+      R: spinel
+      S: STICK
+turquoise_hoe:
+  enabled: true
+  permission: turquoise_hoe
+  model_id: 3
+  vanilla_type: DIAMOND_HOE
+  name: '&fTurquoise hoe'
+  craft_recipe:
+    enabled: true
+    pattern:
+      - RRX
+      - XSX
+      - XSX
+    ingredients:
+      R: turquoise
+      S: STICK
+aqua_hoe:
+  enabled: true
+  permission: aqua_hoe
+  model_id: 4
+  vanilla_type: DIAMOND_HOE
+  name: '&fAqua Aura hoe'
+  craft_recipe:
+    enabled: true
+    pattern:
+      - RRX
+      - XSX
+      - XSX
+    ingredients:
+      R: aqua_aura
+      S: STICK
+amethyst_hoe:
+  enabled: true
+  permission: amethyst_hoe
+  model_id: 5
+  vanilla_type: DIAMOND_HOE
+  name: '&fAmethyst hoe'
+  craft_recipe:
+    enabled: true
+    pattern:
+      - RRX
+      - XSX
+      - XSX
+    ingredients:
+      R: amethyst
+      S: STICK
+ruby_shovel:
+  enabled: true
+  permission: ruby_shovel
+  model_id: 1
+  vanilla_type: DIAMOND_SHOVEL
+  name: '&fRuby shovel'
+  craft_recipe:
+    enabled: true
+    pattern:
+      - XRX
+      - XSX
+      - XSX
+    ingredients:
+      R: ruby
+      S: STICK
+crystal_shovel:
+  enabled: true
+  permission: crystal_shovel
+  model_id: 1
+  vanilla_type: WOODEN_SHOVEL
+  name: '&fCrystal shovel'
+  craft_recipe:
+    enabled: true
+    pattern:
+      - XRX
+      - XSX
+      - XSX
+    ingredients:
+      R: crystal
+      S: STICK
+spinel_shovel:
+  enabled: true
+  permission: spinel_shovel
+  model_id: 2
+  vanilla_type: DIAMOND_SHOVEL
+  name: '&fSpinel shovel'
+  craft_recipe:
+    enabled: true
+    pattern:
+      - XRX
+      - XSX
+      - XSX
+    ingredients:
+      R: spinel
+      S: STICK
+turquoise_shovel:
+  enabled: true
+  permission: turquoise_shovel
+  model_id: 3
+  vanilla_type: DIAMOND_SHOVEL
+  name: '&fTurquoise shovel'
+  craft_recipe:
+    enabled: true
+    pattern:
+      - XRX
+      - XSX
+      - XSX
+    ingredients:
+      R: turquoise
+      S: STICK
+aqua_shovel:
+  enabled: true
+  permission: aqua_shovel
+  model_id: 4
+  vanilla_type: DIAMOND_SHOVEL
+  name: '&fAqua Aura shovel'
+  craft_recipe:
+    enabled: true
+    pattern:
+      - XRX
+      - XSX
+      - XSX
+    ingredients:
+      R: aqua_aura
+      S: STICK
+amethyst_shovel:
+  enabled: true
+  permission: amethyst_shovel
+  model_id: 5
+  vanilla_type: DIAMOND_SHOVEL
+  name: '&fAmethyst shovel'
+  craft_recipe:
+    enabled: true
+    pattern:
+      - XRX
+      - XSX
+      - XSX
+    ingredients:
+      R: amethyst
+      S: STICK
+black_shears:
+  enabled: true
+  permission: black_shears
+  model_id: 1
+  vanilla_type: SHEARS
+  name: '&fBlack Dyed Shears'
+red_shears:
+  enabled: true
+  permission: red_shears
+  model_id: 2
+  vanilla_type: SHEARS
+  name: '&fRed Dyed Shears'
+green_shears:
+  enabled: true
+  permission: green_shears
+  model_id: 3
+  vanilla_type: SHEARS
+  name: '&fGreen Dyed Shears'
+blue_shears:
+  enabled: true
+  permission: blue_shears
+  model_id: 4
+  vanilla_type: SHEARS
+  name: '&fBlue Dyed Shears'
+purple_shears:
+  enabled: true
+  permission: purple_shears
+  model_id: 5
+  vanilla_type: SHEARS
+  name: '&fPurple Dyed Shears'
+cyan_shears:
+  enabled: true
+  permission: cyan_shears
+  model_id: 6
+  vanilla_type: SHEARS
+  name: '&fCyan Dyed Shears'

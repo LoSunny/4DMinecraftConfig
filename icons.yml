@@ -1,0 +1,69 @@
+icon_left_gray:
+  enabled: true
+  model_id: 1
+  name: '&f< Back'
+icon_left_blue:
+  enabled: true
+  model_id: 2
+  name: '&f< Back'
+icon_right_gray:
+  enabled: true
+  model_id: 3
+  name: '&fNext >'
+icon_right_blue:
+  enabled: true
+  model_id: 4
+  name: '&fNext >'
+icon_up_gray:
+  enabled: true
+  model_id: 5
+  name: '&fUp'
+icon_up_blue:
+  enabled: true
+  model_id: 6
+  name: '&fUp'
+icon_down_gray:
+  enabled: true
+  model_id: 7
+  name: '&fDown'
+icon_down_blue:
+  enabled: true
+  model_id: 8
+  name: '&fDown'
+icon_next_white:
+  enabled: true
+  model_id: 9
+  name: '&fNext >'
+icon_next_orange:
+  enabled: true
+  model_id: 10
+  name: '&fNext >'
+icon_back_white:
+  enabled: true
+  model_id: 11
+  name: '&f< Back'
+icon_back_orange:
+  enabled: true
+  model_id: 12
+  name: '&f< Back'
+icon_cancel:
+  enabled: true
+  model_id: 13
+  name: '&fCancel'
+icon_confirm:
+  enabled: true
+  model_id: 14
+  name: '&fConfirm'
+icon_lock:
+  enabled: true
+  model_id: 15
+  name: '&fLock'
+icon_unlock:
+  enabled: true
+  model_id: 16
+  name: '&fUnlock'
+icon_web:
+  enabled: true
+  model_id: 17
+  name: '&fWeb'
+

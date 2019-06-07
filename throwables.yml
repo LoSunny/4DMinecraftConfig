@@ -1,0 +1,68 @@
+granade:
+  enabled: true
+  permission: granade
+  model_id: 1
+  vanilla_type: SNOWBALL
+  name: '&fGranade'
+  events:
+    throw:
+      play_effect: SMOKE
+    hit_ground:
+      explode: 2
+  craft_recipe:
+    enabled: true
+    amount: 4
+    pattern:
+      - XSX
+      - PTP
+      - XPX
+    ingredients:
+      S: STRING
+      T: TNT
+      P: plastic_plate
+mysterious_amulet:
+  enabled: true
+  permission: mysterious_amulet
+  model_id: 1
+  vanilla_type: ENDER_PEARL
+  name: '&fMysterious Amulet'
+  lore:
+    - "&7Teleport amulet found"
+    - "&7killing a Witch"
+  usages: 20
+  specific_properties:
+    keep_on_throw: true
+  events:
+    right_click:
+      reduce_usages: 1
+    throw:
+      play_particle: ENCHANTMENT_TABLE
+      play_sound: mysterious_sword
+    kill_mob:
+      drop_this_item:
+        from_mob: WITCH
+        chance: 20
+ufo_toy:
+  enabled: true
+  permission: ufo_toy
+  model_id: 1
+  vanilla_type: ENDER_EYE
+  name: '&fUfo Toy'
+  lore:
+    - "&7Rightclick to make it fly"
+  usages: 100
+  events:
+    right_click:
+      reduce_usages: 1
+    throw:
+      play_particle: ENCHANTMENT_TABLE
+  craft_recipe:
+    enabled: true
+    pattern:
+      - PPP
+      - PEL
+      - PRP
+    ingredients:
+      P: plastic_plate
+      R: REDSTONE_BLOCK
+      L: LEVER

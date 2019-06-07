@@ -1,0 +1,678 @@
+blue_lightsaber:
+  enabled: true
+  permission: blue_lightsaber
+  model_id: 1
+  vanilla_type: DIAMOND_SWORD
+  name: '&1&lBlue LightSaber'
+  specific_properties:
+    attack_damage: 8
+    attack_speed: 1.2
+  events:
+    attack:
+      play_sound: lightsaber
+  craft_recipe:
+    enabled: true
+    pattern:
+      - XLX
+      - DLR
+      - XSX
+    ingredients:
+      L: LAPIS_BLOCK
+      S: BLAZE_ROD
+      R: REDSTONE
+      D: DIAMOND
+red_lightsaber:
+  enabled: true
+  permission: red_lightsaber
+  model_id: 2
+  vanilla_type: DIAMOND_SWORD
+  name: '&4&lRed LightSaber'
+  specific_properties:
+    attack_damage: 8
+    attack_speed: 1.2
+  events:
+    attack:
+      play_sound: lightsaber
+  craft_recipe:
+    enabled: true
+    pattern:
+      - XLX
+      - DLR
+      - XSX
+    ingredients:
+      L: REDSTONE_BLOCK
+      S: BLAZE_ROD
+      R: REDSTONE
+      D: DIAMOND
+green_lightsaber:
+  enabled: true
+  permission: green_lightsaber
+  model_id: 3
+  vanilla_type: DIAMOND_SWORD
+  name: '&2&lGreen LightSaber'
+  specific_properties:
+    attack_damage: 8
+    attack_speed: 1.2
+  events:
+    attack:
+      play_sound: lightsaber
+  craft_recipe:
+    enabled: true
+    pattern:
+      - XLX
+      - DLR
+      - XSX
+    ingredients:
+      L: REDSTONE_BLOCK
+      S: BLAZE_ROD
+      R: REDSTONE
+      D: DIAMOND
+masters_sword:
+  enabled: true
+  permission: masters_sword
+  model_id: 4
+  vanilla_type: DIAMOND_SWORD
+  name: "&6&lMaster's sword"
+  specific_properties:
+    attack_damage: 8
+  craft_recipe:
+    enabled: true
+    pattern:
+      - XdX
+      - sds
+      - sss
+    ingredients:
+      s: LAPIS_BLOCK
+      d: DIAMOND
+floating_sword:
+  enabled: true
+  permission: floating_sword
+  model_id: 5
+  vanilla_type: DIAMOND_SWORD
+  name: '&9&lFloating Sword'
+  specific_properties:
+    attack_damage: 8
+  craft_recipe:
+    enabled: true
+    pattern:
+      - XdX
+      - sds
+      - sss
+    ingredients:
+      s: SPRUCE_PLANKS
+      d: DIAMOND
+baseball_bat:
+  enabled: true
+  permission: baseball_bat
+  model_id: 1
+  vanilla_type: WOODEN_SWORD
+  name: '&fBaseball bat'
+  specific_properties:
+    attack_damage: 2
+    attack_speed: 4
+  craft_recipe:
+    enabled: true
+    pattern:
+      - XwX
+      - XwX
+      - XwX
+    ingredients:
+      w: SPRUCE_PLANKS
+gandalf_stick:
+  enabled: true
+  permission: gandalf_stick
+  model_id: 2
+  vanilla_type: WOODEN_SWORD
+  name: '&fGandalf Stick'
+  specific_properties:
+    attack_damage: 6
+    attack_speed: 2.1
+  events:
+    left_click:
+      play_particle: ENCHANTMENT_TABLE
+    right_click:
+        play_particle: ENCHANTMENT_TABLE
+        reduce_durability: 1
+    attack:
+      play_particle: ENCHANTMENT_TABLE
+  craft_recipe:
+    enabled: true
+    pattern:
+      - XdX
+      - XbX
+      - XsX
+    ingredients:
+      d: DIAMOND
+      s: STICK
+emerald_sword:
+  enabled: true
+  permission: emerald_sword
+  model_id: 6
+  vanilla_type: DIAMOND_SWORD
+  name: '&fEmerald sword'
+  specific_properties:
+    attack_damage: 7
+  craft_recipe:
+    enabled: true
+    pattern:
+      - XeX
+      - XeX
+      - XsX
+    ingredients:
+      e: EMERALD
+      s: STICK
+elucidator_sword:
+  enabled: true
+  permission: elucidator_sword
+  model_id: 7
+  vanilla_type: DIAMOND_SWORD
+  name: '&fElucidator'
+  specific_properties:
+    attack_damage: 8
+  craft_recipe:
+    enabled: true
+    pattern:
+      - XoX
+      - XoX
+      - XbX
+    ingredients:
+      o: OBSIDIAN
+      b: BLAZE_ROD
+repulser_sword:
+  enabled: true
+  permission: repulser_sword
+  model_id: 8
+  vanilla_type: DIAMOND_SWORD
+  name: '&fRepulser'
+  specific_properties:
+    attack_damage: 9
+  craft_recipe:
+    enabled: true
+    pattern:
+      - XdX
+      - ddd
+      - XbX
+    ingredients:
+      d: DIAMOND
+      b: BLAZE_ROD
+firesword_sword:
+  enabled: true
+  permission: firesword_sword
+  model_id: 9
+  vanilla_type: DIAMOND_SWORD
+  name: '&fFire sword'
+  specific_properties:
+    attack_damage: 10
+  enchants:
+    - FIRE_ASPECT:1
+  craft_recipe:
+    enabled: true
+    pattern:
+      - XdX
+      - XdX
+      - XbX
+    ingredients:
+      d: BLAZE_POWDER
+      b: BLAZE_ROD
+ceruclase_sword:
+  enabled: true
+  permission: ceruclase_sword
+  model_id: 10
+  vanilla_type: DIAMOND_SWORD
+  name: '&fCeruclase'
+  specific_properties:
+    attack_damage: 12
+  craft_recipe:
+    enabled: true
+    pattern:
+      - XdX
+      - dbd
+      - XsX
+    ingredients:
+      d: DIAMOND
+      b: DIAMOND_BLOCK
+      s: STICK
+haderoth_sword:
+  enabled: true
+  permission: haderoth_sword
+  model_id: 11
+  vanilla_type: DIAMOND_SWORD
+  name: '&fHaderoth'
+  specific_properties:
+    attack_damage: 7
+  craft_recipe:
+    enabled: true
+    pattern:
+      - XdX
+      - dbd
+      - XsX
+    ingredients:
+      d: REDSTONE
+      b: REDSTONE_BLOCK
+      s: STICK
+sanguinite_sword:
+  enabled: true
+  permission: sanguinite_sword
+  model_id: 12
+  vanilla_type: DIAMOND_SWORD
+  name: '&fSanguinite'
+  specific_properties:
+    attack_damage: 9
+  craft_recipe:
+    enabled: true
+    pattern:
+      - XdX
+      - dbd
+      - XsX
+    ingredients:
+      d: REDSTONE
+      b: BLAZE_POWDER
+      s: STICK
+vyroxseres_sword:
+  enabled: true
+  permission: vyroxseres_sword
+  model_id: 13
+  vanilla_type: DIAMOND_SWORD
+  name: '&fVyroxseres'
+  specific_properties:
+    attack_damage: 14
+  craft_recipe:
+    enabled: true
+    pattern:
+      - XdX
+      - dbd
+      - XsX
+    ingredients:
+      d: EMERALD
+      b: EMERALD_BLOCK
+      s: STICK
+ruby_sword:
+  enabled: true
+  permission: ruby_sword
+  model_id: 14
+  vanilla_type: DIAMOND_SWORD
+  name: '&fRuby sword'
+  specific_properties:
+    attack_damage: 6
+  craft_recipe:
+    enabled: true
+    pattern:
+      - XRX
+      - XRX
+      - XSX
+    ingredients:
+      R: ruby
+      S: STICK
+crystal_sword:
+  enabled: true
+  permission: crystal_sword
+  model_id: 3
+  vanilla_type: WOODEN_SWORD
+  name: '&fCrystal sword'
+  specific_properties:
+    attack_damage: 6
+    attack_speed: 2.5
+  craft_recipe:
+    enabled: true
+    pattern:
+      - XRX
+      - XRX
+      - XSX
+    ingredients:
+      R: crystal
+      S: STICK
+spinel_sword:
+  enabled: true
+  permission: spinel_sword
+  model_id: 15
+  vanilla_type: DIAMOND_SWORD
+  name: '&fSpinel sword'
+  specific_properties:
+    attack_damage: 6
+  craft_recipe:
+    enabled: true
+    pattern:
+      - XRX
+      - XRX
+      - XSX
+    ingredients:
+      R: spinel
+      S: STICK
+turquoise_sword:
+  enabled: true
+  permission: turquoise_sword
+  model_id: 16
+  vanilla_type: DIAMOND_SWORD
+  name: '&fTurquoise sword'
+  specific_properties:
+    attack_damage: 8
+  craft_recipe:
+    enabled: true
+    pattern:
+      - XRX
+      - XRX
+      - XSX
+    ingredients:
+      R: turquoise
+      S: STICK
+aqua_sword:
+  enabled: true
+  permission: aqua_sword
+  model_id: 17
+  vanilla_type: DIAMOND_SWORD
+  name: '&fAqua Aura sword'
+  specific_properties:
+    attack_damage: 8
+  craft_recipe:
+    enabled: true
+    pattern:
+      - XRX
+      - XRX
+      - XSX
+    ingredients:
+      R: aqua_aura
+      S: STICK
+amethyst_sword:
+  enabled: true
+  permission: amethyst_sword
+  model_id: 18
+  vanilla_type: DIAMOND_SWORD
+  name: '&fAmethyst sword'
+  specific_properties:
+    attack_damage: 13
+  craft_recipe:
+    enabled: true
+    pattern:
+      - XRX
+      - XRX
+      - XSX
+    ingredients:
+      R: amethyst
+      S: STICK
+guitar_sword:
+  enabled: true
+  permission: guitar_sword
+  model_id: 4
+  vanilla_type: WOODEN_SWORD
+  name: '&fGuitar sword'
+  specific_properties:
+    attack_damage: 2
+    attack_speed: 0.5
+  events:
+    right_click:
+      play_sound: guitar_play
+      play_particle: NOTE
+  craft_recipe:
+    enabled: true
+    pattern:
+      - XXD
+      - WRX
+      - WWX
+    ingredients:
+      W: SPRUCE_PLANKS
+      R: REDSTONE
+      D: DIAMOND
+ruby_dagger:
+  enabled: true
+  permission: ruby_dagger
+  model_id: 4
+  vanilla_type: GOLDEN_SWORD
+  name: '&fRuby dagger'
+  specific_properties:
+    attack_damage: 4
+    attack_speed: 4.2
+  craft_recipe:
+    enabled: true
+    pattern:
+      - XXX
+      - XRX
+      - XSX
+    ingredients:
+      R: ruby
+      S: STICK
+sweets_sword:
+  enabled: true
+  permission: sweets_sword
+  model_id: 5
+  vanilla_type: WOODEN_SWORD
+  name: '&fSweets Sword'
+  specific_properties:
+    attack_damage: 0.1
+    attack_speed: 5
+  craft_recipe:
+    enabled: true
+    pattern:
+      - XDX
+      - XDX
+      - XSX
+    ingredients:
+      D: sweet
+      S: sweet_stick
+knife:
+  enabled: true
+  permission: knife
+  model_id: 6
+  vanilla_type: WOODEN_SWORD
+  name: '&fKnife'
+  specific_properties:
+    attack_damage: 2
+    attack_speed: 5
+  craft_recipe:
+    enabled: true
+    pattern:
+      - XXX
+      - XDX
+      - XSX
+    ingredients:
+      D: IRON_NUGGET
+      S: STICK
+philosopher_stone:
+  enabled: true
+  permission: philosopher_stone
+  model_id: 1
+  vanilla_type: IRON_SWORD
+  name: '&fPhilosopher''s Stone'
+  lore:
+    - "&6[ &eSpecial effects &6]"
+    - "&7Rightclick + SHIFT: "
+    - "   - &4Lava &7to &8Obsidian"
+    - " "
+    - "&7Rightclick: "
+    - "   - &eSand &7to &8Cobblestone"
+    - "   - &9Water &7to &bIce"
+    - "   - &eDandelion &7to &cPoppy"
+    - "   - &2Melon &7to &6Pumpkin"
+    - "   - &fGlass &7to &eSand"
+    - " "
+    - "&7To recharge put it in &fCrafting table"
+    - "&7center slot and put an &5Energy Orb"
+    - "&7(or other energy containers) on the right"
+  specific_properties:
+    attack_damage: 0
+    attack_speed: 4
+    hide_attributes: true
+    damage_value: 249
+  events:
+    shift_right_click:
+      play_sound: philosopher_stone
+      play_particle: CRIT_MAGIC
+      replace_near_blocks:
+        reduce_durability: 8
+        radius:
+          x: 2
+          y: 2
+          z: 2
+        from: LAVA
+        to: OBSIDIAN
+    right_click:
+      play_sound: philosopher_stone
+      play_particle: CRIT_MAGIC
+      replace_near_blocks:
+        reduce_durability: 1
+        radius:
+          x: 2
+          y: 1
+          z: 2
+        from: SAND
+        to: COBBLESTONE
+      replace_near_blocks_1:
+        reduce_durability: 2
+        radius:
+          x: 3
+          y: 2
+          z: 3
+        from: WATER
+        to: ICE
+      replace_near_blocks_2:
+        reduce_durability: 1
+        radius:
+          x: 1
+          y: 2
+          z: 1
+        from: DANDELION
+        to: POPPY
+      replace_near_blocks_3:
+        reduce_durability: 1
+        radius:
+          x: 1
+          y: 2
+          z: 1
+        from: POPPY
+        to: DANDELION
+      replace_near_blocks_4:
+        reduce_durability: 2
+        radius:
+          x: 1
+          y: 2
+          z: 1
+        from: MELON
+        to: PUMPKIN
+      replace_near_blocks_5:
+        reduce_durability: 1
+        radius:
+          x: 1
+          y: 2
+          z: 1
+        from: GLASS
+        to: SAND
+  craft_recipe:
+    enabled: true
+    pattern:
+      - GRG
+      - RDR
+      - GRG
+    ingredients:
+      D: DIAMOND_BLOCK
+      R: REDSTONE
+      G: GLOWSTONE_DUST
+  result_recipe_1:
+    enabled: true
+    pattern:
+      - XXX
+      - XPE
+      - XXX
+    ingredients:
+      P: philosopher_stone
+      E: energy_orb
+    result:
+      item: DIRT
+    return_items:
+      increment_durability:
+        philosopher_stone: 1
+  result_recipe_2:
+    enabled: true
+    pattern:
+      - XXX
+      - XPE
+      - XXX
+    ingredients:
+      P: philosopher_stone
+      E: small_energy_capsule
+    result:
+      item: DIRT
+    return_items:
+      increment_durability:
+        philosopher_stone: 8
+  result_recipe_3:
+    enabled: true
+    pattern:
+      - XXX
+      - XPE
+      - XXX
+    ingredients:
+      P: philosopher_stone
+      E: energy_capsule
+    result:
+      item: DIRT
+    return_items:
+      increment_durability:
+        philosopher_stone: 64
+chisel:
+  enabled: true
+  permission: chisel
+  model_id: 7
+  vanilla_type: WOODEN_SWORD
+  name: '&fChisel'
+  specific_properties:
+    attack_damage: 1
+    attack_speed: 5
+  craft_recipe:
+    enabled: true
+    pattern:
+      - XXX
+      - XXI
+      - XSX
+    ingredients:
+      I: IRON_INGOT
+      S: STICK
+mysterious_sword:
+  enabled: true
+  permission: mysterious_sword
+  model_id: 19
+  vanilla_type: DIAMOND_SWORD
+  name: '&fMysterious Sword'
+  specific_properties:
+    attack_damage: 19
+    attack_speed: 1.1
+  events:
+    attack:
+      play_sound: mysterious_sword
+    left_click:
+      play_sound: mysterious_sword
+  craft_recipe:
+    enabled: true
+    pattern:
+      - XAM
+      - XAA
+      - SXX
+    ingredients:
+      A: mysterious_artifact
+      M: mysterious_material
+      S: STICK
+    return_items:
+      play_sound: creepy
+      replace:
+        AIR: AIR
+end_sword:
+  enabled: true
+  permission: end_sword
+  model_id: 20
+  vanilla_type: DIAMOND_SWORD
+  name: '&fEnd Sword'
+  specific_properties:
+    attack_damage: 7
+    attack_speed: 1.1
+  events:
+    attack:
+      play_particle: DRAGON_BREATH
+    left_click:
+      play_particle: DRAGON_BREATH
+  craft_recipe:
+    enabled: true
+    pattern:
+      - XEX
+      - XEX
+      - XSX
+    ingredients:
+      E: end_ingot
+      S: STICK

@@ -1,0 +1,23 @@
+arcane_ring:
+  enabled: true
+  permission: arcane_ring
+  model_id: 1
+  name: '&fArcane Ring'
+  lore:
+    - "&6[ &eSpecial effects &6]"
+    - "&7Return to life"
+  craft_recipe:
+    enabled: true
+    pattern:
+      - XXX
+      - XPD
+      - XTX
+    ingredients:
+      P: philosopher_stone
+      D: DIAMOND
+      T: TOTEM_OF_UNDYING
+    return_items:
+      reduce_durability:
+        philosopher_stone: 8
+      replace:
+        DIAMOND: crystal
